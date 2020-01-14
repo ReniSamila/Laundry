@@ -152,7 +152,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/lolo.jpg')}}" width="700px" height=”700px″ alt="Image" class="img-fluid">
+            <img src="{{ asset('assets/frontend/grunt/grunt/images/lolo.jpg')}}" width="700px" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 ml-auto section-title">
             <span class="sub-title mb-2 d-block">Acquaint Us</span>
@@ -230,7 +230,7 @@
         </div>
         <div class="row mb-5">
           <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/sq_img_2.jpg')}}" alt="Image" class="img-fluid">
+            <img src="{{ asset('assets/frontend/grunt/grunt/images/pl.png')}}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
             <h3>Project title one</h3>
@@ -306,7 +306,7 @@
       </div>
     </div>
 
-    <div class="site-section bg-light">
+    {{-- <div class="site-section bg-light">
       <div class="container">
          <div class="row mb-5 ">
           <div class="col-md-7 section-title text-center mx-auto">
@@ -383,7 +383,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
 
 
