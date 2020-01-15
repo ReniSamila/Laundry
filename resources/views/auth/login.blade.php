@@ -1,49 +1,100 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>RegistrationForm_v4 by Colorlib</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+	<title>Login V15</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="{{ asset('assets/frontend/Login/Login/images/icons/favicon.ico')}}"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/Login/Login/vendor/bootstrap/css/bootstrap.min.css')}}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/Login/Login/fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/Login/Login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css')}}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/Login/Login/vendor/animate/animate.css')}}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/Login/Login/vendor/css-hamburgers/hamburgers.min.css')}}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/Login/Login/vendor/animsition/css/animsition.min.css')}}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/Login/Login/vendor/select2/select2.min.css')}}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/Login/Login/vendor/daterangepicker/daterangepicker.css')}}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/Login/Login/css/util.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/Login/Login/css/main.css')}}">
+<!--===============================================================================================-->
+</head>
+<body>
 
-		<!-- STYLE CSS -->
-		<link rel="stylesheet" href="{{ asset('assets/frontend/login/login/css/style.css')}}">
-	</head>
-
-	<body>
-
-		<div class="wrapper">
-			<div class="inner">
-				<div class="image-holder">
-					<img src="{{ asset('assets/frontend/login/login/images/registration-form-4.jpg')}}" alt="">
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-form-title" style="background-image: url({{ asset('assets/frontend/Login/Login/images/bg-01.jpg);')}}'">
+					<span class="login100-form-title-1">
+						Sign In
+					</span>
 				</div>
-				<form action="">
-					<h3>Sign Up</h3>
-					<div class="form-holder active">
-						<input type="text" placeholder="name" class="form-control">
+
+                <form class="login100-form validate-form" method="POST" action="{{route('login')}}">
+                    {{csrf_field()}}
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Email is required">
+						<span class="label-input100">Email</span>
+						<input class="input100" type="email" name="email" placeholder="Enter email">
+						<span class="focus-input100"></span>
 					</div>
-					<div class="form-holder">
-						<input type="text" placeholder="e-mail" class="form-control">
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
+						<span class="label-input100">Password</span>
+						<input class="input100" type="password" name="password" placeholder="Enter password">
+						<span class="focus-input100"></span>
 					</div>
-					<div class="form-holder">
-						<input type="password" placeholder="Password" class="form-control" style="font-size: 15px;">
+
+					<div class="flex-sb-m w-full p-b-30">
+						<div class="contact100-form-checkbox">
+							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+							<label class="label-checkbox100" for="ckb1">
+								Remember me
+							</label>
+						</div>
+
+						<div>
+							<a href="#" class="txt1">
+								Forgot Password?
+							</a>
+						</div>
 					</div>
-					<div class="checkbox">
-						<label>
-							<input type="checkbox" checked> I agree all statement in <a href="#">Terms & Conditions</a>
-							<span class="checkmark"></span>
-						</label>
-					</div>
-					<div class="form-login">
-						<button>Sign up</button>
-						<p>Already Have account? <a href="#">Login</a></p>
+
+					<div class="container-login100-form-btn">
+						<button type="submit" class="login100-form-btn">
+							{{__('Login')}}
+						</button>
 					</div>
 				</form>
 			</div>
 		</div>
+	</div>
 
-		<script src="{{ asset('assets/frontend/login/login/js/jquery-3.3.1.min.js')}}"></script>
-		<script src="{{ asset('assets/frontend/login/login/js/main.js')}}"></script>
-	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+<!--===============================================================================================-->
+	<script src="{{ asset('assets/frontend/Login/Login/vendor/jquery/jquery-3.2.1.min.js')}}"></script>
+<!--===============================================================================================-->
+	<script src="{{ asset('assets/frontend/Login/Login/vendor/animsition/js/animsition.min.js')}}"></script>
+<!--===============================================================================================-->
+	<script src="{{ asset('assets/frontend/Login/Login/vendor/bootstrap/js/popper.js')}}"></script>
+	<script src="{{ asset('assets/frontend/Login/Login/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+<!--===============================================================================================-->
+	<script src="{{ asset('assets/frontend/Login/Login/vendor/select2/select2.min.js')}}"></script>
+<!--===============================================================================================-->
+	<script src="{{ asset('assets/frontend/Login/Login/vendor/daterangepicker/moment.min.js')}}"></script>
+	<script src="{{ asset('assets/frontend/Login/Login/vendor/daterangepicker/daterangepicker.js')}}"></script>
+<!--===============================================================================================-->
+	<script src="{{ asset('assets/frontend/Login/Login/vendor/countdowntime/countdowntime.js')}}"></script>
+<!--===============================================================================================-->
+	<script src="{{ asset('assets/frontend/Login/Login/js/main.js')}}"></script>
+
+</body>
 </html>
 
 

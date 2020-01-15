@@ -19,10 +19,16 @@ Route::get('/index', function () {
     return view('index');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
+
+
+// Route::get('/backend', function () {
+//     return view('backend');
+// });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['prefix'=>'backend', 'middleware'=>['auth']], function(){
+    Route::resource('/home', 'backendController');
+});
