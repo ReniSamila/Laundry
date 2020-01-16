@@ -100,9 +100,9 @@
                 <img class="img-xs rounded-circle ml-2" src="{{ asset('assets/backend/backend/images/faces/face8.jpg')}}" alt="Profile image"> <span class="font-weight-normal"> Henry Klein </span></a>
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
                 <div class="dropdown-header text-center">
-                  <img class="img-md rounded-circle" src="{{ asset('assets/backend/backend/images/faces/face8.jpg')}}" alt="Profile image">
+                  <img class="img-md rounded-circle" src="{{ asset('assets/backend/backend/images/faces/mila.jpg')}}" alt="Profile image">
                   <p class="mb-1 mt-3">Allen Moreno</p>
-                  <p class="font-weight-light text-muted mb-0">allenmoreno@gmail.com</p>
+                  <p class="font-weight-light text-muted mb-0">Reni19@gmail.com</p>
                 </div>
                 <a class="dropdown-item"><i class="dropdown-item-icon icon-user text-primary"></i> My Profile <span class="badge badge-pill badge-danger">1</span></a>
                 <a class="dropdown-item"><i class="dropdown-item-icon icon-speech text-primary"></i> Messages</a>
@@ -213,7 +213,7 @@
           </ul>
         </nav>
         <!-- partial -->
-        <div class="main-panel">
+        {{-- <div class="main-panel">
           <div class="content-wrapper">
             <div class="row purchace-popup">
               <div class="col-12 stretch-card grid-margin">
@@ -476,7 +476,7 @@
             </div>
           </footer>
           <!-- partial -->
-        </div>
+        </div> --}}
         <!-- main-panel ends -->
       </div>
       <!-- page-body-wrapper ends -->
