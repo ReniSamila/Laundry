@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Laundry &mdash; Auota Cleaning</title>
+    <title>Laundry &mdash; Auto Cleaning</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -59,7 +59,7 @@
                     <li><a href="#home-section" class="nav-link">Home</a></li>
                     <li><a href="#what-we-do-section" class="nav-link">Jadwal Laundry</a></li>
                     <li><a href="#about-section" class="nav-link">About Us</a></li>
-                    <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
+                    <li><a href="#portfolio-section" class="nav-link">Alat Yang Dipakai</a></li>
                     <li><a href="#studio-section" class="nav-link">Gallery</a></li>
                     <li><a href="#contact-section" class="nav-link">Contact</a></li>
                   </ul>
@@ -94,7 +94,6 @@
               </div>
               <div class="text">
                 <p class="sub-text mb-5">Selamat Datang Di Laundry Auto Cleaning Yang Siap Menampung Banyak Cucian.</p>
-                <p><a href="#" target="_blank" class="btn btn-outline-primary btn-md">Start a project</a></p>
               </div>
             </div>
           </div>
@@ -148,6 +147,22 @@
         </div>
       </div>
     </div> <!-- END .site-section -->
+
+    <div class="site-section" id="about-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-5">
+            <img src="{{ asset('assets/frontend/grunt/grunt/images/lolo.jpg')}}" width="700px" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 ml-auto section-title">
+            <span class="sub-title mb-2 d-block">Acquaint Us</span>
+            <h2 class="title text-primary mb-3">About us</h2>
+            <p>Laundry ini berdiri sejak tahun 1990 </p>
+            <p class="mb-4">Banyak warga yang dipusingkan dengan pakaian menumpuk dan tidak kering-kering, tidak ada waktu untuk mencuci dan pembantu pulang kampung. Aktivitas sehari-hari seperti mencuci baju, tidak semua menyempatkan diri untuk mencuci, apalagi mahasiswa yang saat ini tugas kuliah dari dosen yang bertumpuk-tumpuk membuat mereka enggan untuk mencuci dan lebih mempercayakannya kepada jasa tukang cuci atau pengusaha laundry dengan alasan menghemat waktu dan agar lebih berkonsentrasi untuk menyelesaikan tugas kuliahnya. Selera warga kota yang menginginkan bajunya bersih, rapi, dan wangi dalam sekejap jadi celah bisnis menggiurkan. Dewasa ini kebutuhan akan jasa laundry semakin meningkat baik dibidang Rumah Tangga, rumah sewa karyawan, Salon, Rumah Sakit, Apartemen dan Hotel.</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- .END site-section -->
 
 
     <div class="site-section" id="what-we-do-section">
@@ -210,28 +225,29 @@
         <div class="row mb-5 ">
           <div class="col-md-7 section-title text-center mx-auto">
             <span class="sub-title mb-2 d-block">Recent Works</span>
-            <h2 class="title text-primary mb-3">We love what we do, check out some of our latest works</h2>
+            <h2 class="title text-primary mb-3">Alat Yang Dipakai Laundry</h2>
           </div>
         </div>
         <div class="row mb-5">
           <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/sq_img_2.jpg')}}" alt="Image" class="img-fluid">
+            <img src="{{ asset('assets/frontend/grunt/grunt/images/papan.jpg')}}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
-            <h3>Project title one</h3>
-            <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            <p class="mb-4"><a href="#" class="readmore">Visit website</a></p>
+            <h3>Alat Setrika</h3>
+            <p class="mb-4">cara menghilangkan kerutan dari pakaian dengan alat yang dipanaskan. Alat yang biasanya digunakan untuk hal ini juga disebut "setrika". Biasanya pakaian yang baru dicuci harus disetrika agar kembali mulus.</p>
+            <p class="mb-4"><a href="#" class="readmore">Kunjungi Kami</a></p>
             <div class="testimonial bg-white h-100">
               <blockquote class="mb-3">
-                <p>&ldquo;Far far away, behind the word mountains, <strong>far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</strong> right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                {{-- <p>&ldquo;Far far away, behind the word mountains, <strong>far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</strong> right at the coast of the Semantics, a large language ocean.&rdquo;</p> --}}
               </blockquote>
               <div class="d-flex align-items-center vcard">
                 <figure class="mb-0 mr-3">
-                  <img src="{{ asset('assets/frontend/grunt/grunt/images/person_3.jpg')}}" alt="Image" class="img-fluid ounded-circle">
+                  <img src="{{ asset('assets/frontend/grunt/grunt/images/mila.jpg')}}" alt="Image" class="img-fluid ounded-circle">
                 </figure>
                 <div class="vcard-text">
-                  <span class="d-block">Jacob Spencer</span>
-                  <span class="position">Web Designer</span>
+                  <ul>
+                    <li><a href="https://www.instagram.com/renisamila02/"><i class="fa fa-instagram"></i>Oninsta renisamila02</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -240,23 +256,24 @@
 
         <div class="row mb-5">
           <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/sq_img_4.jpg')}}" alt="Image" class="img-fluid">
+            <img src="{{ asset('assets/frontend/grunt/grunt/images/lop.jpg')}}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top mr-auto order-2 order-lg-1">
-            <h3>Project title two</h3>
-            <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            <p class="mb-4"><a href="#" class="readmore">Visit website</a></p>
+            <h3>Pengharum Pakaian</h3>
+            <p class="mb-4">pewangi digunakan untuk menimbulkan aroma wangi pada badan atau baju yang kita pakai sehari – hari. Bisa juga untuk mengharumkan ruangan. ... Di antara zat-zat tambahan yang dapat berfungsi sebagai propelan tersebut ada yang dapatmencemari lingkungan..</p>
+            <p class="mb-4"><a href="#" class="readmore">Kunjungi Kami</a></p>
             <div class="testimonial bg-white h-100">
               <blockquote class="mb-3">
-                <p>&ldquo;A small river named Duden <strong>flows by their place and supplies it with the necessary regelialia</strong>. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
+                {{-- <p>&ldquo;Kunjungi Akun Kami <strong>flows by their place and supplies it with the necessary regelialia</strong>. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p> --}}
               </blockquote>
               <div class="d-flex align-items-center vcard">
                 <figure class="mb-0 mr-3">
-                  <img src="{{ asset('assets/frontend/grunt/grunt/images/person_4.jpg')}}" alt="Image" class="img-fluid ounded-circle">
+                  <img src="{{ asset('assets/frontend/grunt/grunt/images/mila.jpg')}}" alt="Image" class="img-fluid ounded-circle">
                 </figure>
                 <div class="vcard-text">
-                  <span class="d-block">Jean Smith</span>
-                  <span class="position">Web Designer</span>
+                  <ul>
+                    <li><a href="https://www.instagram.com/renisamila02/"><i class="fa fa-instagram"></i>Oninsta renisamila02</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -265,23 +282,24 @@
 
           <div class="row mb-5">
           <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/sq_img_6.jpg')}}" alt="Image" class="img-fluid">
+            <img src="{{ asset('assets/frontend/grunt/grunt/images/pl.png')}}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
-            <h3>Project title three</h3>
-            <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            <p class="mb-4><a href="#" class="readmore">Visit website</a></p>
+            <h3>Mesin Cuci</h3>
+            <p class="mb-4">Disinilah fungsi dryer atau pengering baju pada mesin cuci sangat bermanfaat untuk kegiatan mencuci baju anda. Sesuai dengan namanya, dryer atau pengering mesin cuci bertugas untuk membantu mengeringkan pakaian yang baru saja dicuci oleh washer atau mesin cuci.</p>
+            <p class="mb-4"><a href="#" class="readmore">Kunjungi Kami</a></p>
             <div class="testimonial bg-white h-100">
               <blockquote class="mb-3">
-                <p>&ldquo;Far far away, behind the word mountains, <strong>far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</strong> right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                {{-- <p>&ldquo;Far far away, behind the word mountains, <strong>far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</strong> right at the coast of the Semantics, a large language ocean.&rdquo;</p> --}}
               </blockquote>
               <div class="d-flex align-items-center vcard">
                 <figure class="mb-0 mr-3">
-                  <img src="{{ asset('assets/frontend/grunt/grunt/images/person_3.jpg')}}" alt="Image" class="img-fluid ounded-circle">
+                  <img src="{{ asset('assets/frontend/grunt/grunt/images/mila.jpg')}}" alt="Image" class="img-fluid ounded-circle">
                 </figure>
                 <div class="vcard-text">
-                  <span class="d-block">Jacob Spencer</span>
-                  <span class="position">Web Designer</span>
+                  <ul>
+                    <li><a href="https://www.instagram.com/renisamila02/"><i class="fa fa-instagram"></i>Oninsta renisamila02</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -291,7 +309,7 @@
       </div>
     </div>
 
-    <div class="site-section bg-light">
+    {{-- <div class="site-section bg-light">
       <div class="container">
          <div class="row mb-5 ">
           <div class="col-md-7 section-title text-center mx-auto">
@@ -368,7 +386,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
 
 
@@ -512,10 +530,12 @@
               </div>
               <div class="col-md-6 col-lg-6">
                 <ul class="list-unstyled">
-                  <li><a href="#home-section" class="smoothscroll">Home</a></li>
-                  <li><a href="#what-we-do-section" class="smoothscroll">What We Do</a></li>
-                  <li><a href="#about-section" class="smoothscroll">About Us</a></li>
-                  <li><a href="#team-section"  class="smoothscroll">Team</a></li>
+                  <li><a href="#home-section" class="nav-link">Home</a></li>
+                    <li><a href="#what-we-do-section" class="nav-link">Jadwal Laundry</a></li>
+                    <li><a href="#about-section" class="nav-link">About Us</a></li>
+                    <li><a href="#portfolio-section" class="nav-link">Alat Yang Dipakai</a></li>
+                    <li><a href="#studio-section" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
                 </ul>
               </div>
 

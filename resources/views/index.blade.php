@@ -1,33 +1,37 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
   <head>
-    <title>Laundry &mdash; Auto Cleaning</title>
+    <title>JobBoard &mdash; Website Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Free-Template.co" />
+    <link rel="shortcut icon" href="ftco-32x32.png">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/grunt/grunt/fonts/icomoon/style.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/grunt/grunt/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/grunt/grunt/css/animate.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/grunt/grunt/css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/grunt/grunt/css/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/grunt/grunt/css/bootstrap-datepicker.css')}}">
+    <link rel="stylesheet" href="{{ asset ('assets/frontend/jobboard/jobboard/css/custom-bs.css')}}">
+    <link rel="stylesheet" href="{{ asset ('assets/frontend/jobboard/jobboard/css/jquery.fancybox.min.css')}}">
+    <link rel="stylesheet" href="{{ asset ('assets/frontend/jobboard/jobboard/css/bootstrap-select.min.css')}}">
+    <link rel="stylesheet" href="{{ asset ('assets/frontend/jobboard/jobboard/fonts/icomoon/style.css')}}">
+    <link rel="stylesheet" href="{{ asset ('assets/frontend/jobboard/jobboard/fonts/line-icons/style.css')}}">
+    <link rel="stylesheet" href="{{ asset ('assets/frontend/jobboard/jobboard/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ asset ('assets/frontend/jobboard/jobboard/css/animate.min.css')}}">
 
-
-    <link rel="stylesheet" href="{{ asset('assets/frontend/grunt/grunt/fonts/flaticon/font/flaticon.css')}}">
-
-    <link rel="stylesheet" href="{{ asset('assets/frontend/grunt/grunt/css/aos.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/grunt/grunt/css/jquery.fancybox.min.css')}}">
-
-
-    <link rel="stylesheet" href="{{ asset('assets/frontend/grunt/grunt/css/style.css')}}">
-
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="{{ asset ('assets/frontend/jobboard/jobboard/css/style.css')}}">
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <body id="top">
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
 
 
-
-  <div class="site-wrap">
+<div class="site-wrap">
 
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
@@ -39,568 +43,522 @@
     </div> <!-- .site-mobile-menu -->
 
 
-    <div class="site-navbar-wrap">
+    <!-- NAVBAR -->
+    <header class="site-navbar mt-3">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="site-logo col-6"><a href="index.html">Laundry</a></div>
 
-      <div class="site-navbar site-navbar-target js-sticky-header">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-6 col-md-4">
-              <h1 class="my-0 site-logo"><a href="index.html">Laundry<span class="text-primary">.</span> </a></h1>
+          <nav class="mx-auto site-navigation">
+            <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
+              <li><a href="index.html" class="nav-link active">Home</a></li>
+              <li><a href="about">About</a></li>
+              <li class="has-children">
+                <a href="job-listings.html">Job Listings</a>
+                <ul class="dropdown">
+                  <li><a href="job-single.html">Job Single</a></li>
+                  <li><a href="post-job.html">Post a Job</a></li>
+                </ul>
+              </li>
+              <li class="has-children">
+                <a href="services.html">Pages</a>
+                <ul class="dropdown">
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="service-single.html">Service Single</a></li>
+                  <li><a href="blog-single.html">Blog Single</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="portfolio-single.html">Portfolio Single</a></li>
+                  <li><a href="testimonials.html">Testimonials</a></li>
+                  <li><a href="faq.html">Frequently Ask Questions</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+              </li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
+              <li class="d-lg-none"><a href="login.html">Log In</a></li>
+            </ul>
+          </nav>
+
+          <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
+            <div class="ml-auto">
+              <a href="post-job.html" class="btn btn-outline-white border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-add"></span>Post a Job</a>
+              <a href="login.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-lock_outline"></span>Log In</a>
             </div>
-            <div class="col-6 col-md-8">
-              <nav class="site-navigation text-right" role="navigation">
-                <div class="container">
+            <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span class="icon-menu h3 m-0 p-0 mt-2"></span></a>
+          </div>
 
-                  <div class="d-inline-block d-lg-block ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black">
-                    <span class="icon-menu h3"></span> <span class="menu-text">Menu</span>
-                  </a></div>
+        </div>
+      </div>
+    </header>
 
-                  <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
-                    <li><a href="#home-section" class="nav-link">Home</a></li>
-                    <li><a href="#what-we-do-section" class="nav-link">Jadwal Laundry</a></li>
-                    <li><a href="#about-section" class="nav-link">About Us</a></li>
-                    <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
-                    <li><a href="#studio-section" class="nav-link">Gallery</a></li>
-                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
+    <!-- HOME -->
+    <section class="home-section section-hero overlay bg-image" style="background-image: url('{{asset('assets/frontend/jobboard/jobboard/images/wi.jpg')}}');" id="home-section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-12">
+            <div class="mb-5 text-center">
+              <h1 class="text-white font-weight-bold">Welcome To My Laundry</h1>
+              <p>Laundry Auto Cleaning Yang Siap Menampung Banyak Cucian.</p>
+            </div>
+            {{-- <form method="post" class="search-jobs-form">
+              <div class="row mb-5">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                  <input type="text" class="form-control form-control-lg" placeholder="Job title, Company...">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                  <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Region">
+                    <option>Anywhere</option>
+                    <option>San Francisco</option>
+                    <option>Palo Alto</option>
+                    <option>New York</option>
+                    <option>Manhattan</option>
+                    <option>Ontario</option>
+                    <option>Toronto</option>
+                    <option>Kansas</option>
+                    <option>Mountain View</option>
+                  </select>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                  <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Job Type">
+                    <option>Part Time</option>
+                    <option>Full Time</option>
+                  </select>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                  <button type="submit" class="btn btn-primary btn-lg btn-block text-white btn-search"><span class="icon-search icon mr-2"></span>Search Job</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 popular-keywords">
+                  <h3>Trending Keywords:</h3>
+                  <ul class="keywords list-unstyled m-0 p-0">
+                    <li><a href="#" class="">UI Designer</a></li>
+                    <li><a href="#" class="">Python</a></li>
+                    <li><a href="#" class="">Developer</a></li>
                   </ul>
                 </div>
-              </nav>
-            </div>
-          </div>
+              </div>
+            </form>
+          </div> --}}
         </div>
       </div>
-    </div> <!-- END .site-navbar-wrap -->
 
-    <div class="site-blocks-cover" id="home-section">
-      <div class="img-wrap">
-        <div class="owl-carousel slide-one-item hero-slider">
-          <div class="slide">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/lele.jpg')}}" alt="Image">
-          </div>
-          <div class="slide">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/lolo.jpg')}}" alt="Image">
-          </div>
-          <div class="slide">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/ula.jpeg')}}" alt="Image">
-          </div>
-        </div>
-      </div>
+      <a href="#next" class="scroll-button smoothscroll">
+        <span class=" icon-keyboard_arrow_down"></span>
+      </a>
+
+    </section>
+
+    <section class="py-5 bg-image overlay-primary fixed overlay" id="next" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 ml-auto align-self-center">
-            <div class="intro">
-              <div class="heading">
-                <h1>Auto Cleaning</h1>
-              </div>
-              <div class="text">
-                <p class="sub-text mb-5">Selamat Datang Di Laundry Auto Cleaning Yang Siap Menampung Banyak Cucian.</p>
-              </div>
-            </div>
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-2 text-white">Laundry Auto Cleaning</h2>
+            <p class="lead text-white">Laundry Auto Cleaning Melayani Jasa Pencucian Dalam Bentuk Laundry Kiloan Dan Satuan, Mulai Dari Pakaian, Jaket, Sepatu, Tas, Dan Lainnya. Tinggal Hubungi Kami, Untuk Pickup Dan Delivery Laundry Langsung Di Tempat Kamu!</p>
           </div>
         </div>
-      </div>
-    </div> <!-- END .site-blocks-cover -->
+        {{-- <div class="row pb-0 block__19738 section-counter">
 
-    <div class="site-section" id="what-we-do-section">
+          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <strong class="number" data-number="1930">0</strong>
+            </div>
+            <span class="caption">Candidates</span>
+          </div> --}}
+
+          {{-- <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <strong class="number" data-number="54">0</strong>
+            </div>
+            <span class="caption">Jobs Posted</span>
+          </div> --}}
+
+          {{-- <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <strong class="number" data-number="120">0</strong>
+            </div>
+            <span class="caption">Jobs Filled</span>
+          </div> --}}
+
+          {{-- <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <strong class="number" data-number="550">0</strong>
+            </div>
+            <span class="caption">Companies</span>
+          </div> --}}
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="site-section">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-6 section-title">
-            <span class="sub-title mb-2 d-block">Auto Cleaning</span>
-            <h2 class="title text-primary">Jadwal Dan Harga</h2>
+
+        {{-- <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-2">43,167 Job Listed</h2>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-10 ml-auto">
-            <div class="row">
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <h3>Jadwal Buka Laundry</h3>
-                  <p>Senin 08.00 s/d 18.00</p>
-                  <p>Selasa 08.00 s/d 18.00</p>
-                  <p>Rabu 08.00 s/d 18.00</p>
-                  <p>Kamis 08.00 s/d 18.00</p>
-                  <p>Jumat 08.00 s/d 18.00</p>
-                  <p>Sabtu 08.00 s/d 17.00</p>
-                </div>
+        </div> --}}
+
+        <ul class="job-listings mb-5">
+          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
+            <a href="job-single.html"></a>
+            <div class="job-listing-logo">
+              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_1.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </div>
+
+            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
+              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+                <h2>Product Designer</h2>
+                <strong>Adidas</strong>
               </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <h3>Cuci Komplit</h3>
-                  <p>Reguler 2 Hari Rp. 8.000/Kg</p>
-                  <p>Oneday 1 Hari Rp. 10.000/Kg</p>
-                  <p>Sameday 24 jam Rp. 12.000/Kg</p>
-                  <p>Express 5 jam Rp. 15.000/Kg</p>
-                </div>
+              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                <span class="icon-room"></span> New York, New York
               </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <h3>Cuci Setrika Pewangi</h3>
-                  <p>Reguler 2 hari Rp. 5.000/Kg</p>
-                  <p>Oneday 1 hari Rp. 7.000/Kg</p>
-                  <p>Sameday 24 jam Rp. 9.000/Kg</p>
-                  <p>Express 5 jam Rp. 10.000/Kg</p>
-                </div>
-              </div>
+              <div class="job-listing-meta">
+                <span class="badge badge-danger">Part Time</span>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- END .site-section -->
 
-    <div class="site-section" id="about-section">
+          </li>
+          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
+            <a href="job-single.html"></a>
+            <div class="job-listing-logo">
+              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_2.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </div>
+
+            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
+              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+                <h2>Digital Marketing Director</h2>
+                <strong>Sprint</strong>
+              </div>
+              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                <span class="icon-room"></span> Overland Park, Kansas
+              </div>
+              <div class="job-listing-meta">
+                <span class="badge badge-success">Full Time</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
+            <a href="job-single.html"></a>
+            <div class="job-listing-logo">
+              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_3.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </div>
+
+            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
+              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+                <h2>Back-end Engineer (Python)</h2>
+                <strong>Amazon</strong>
+              </div>
+              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                <span class="icon-room"></span> Overland Park, Kansas
+              </div>
+              <div class="job-listing-meta">
+                <span class="badge badge-success">Full Time</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
+            <a href="job-single.html"></a>
+            <div class="job-listing-logo">
+              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_4.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </div>
+
+            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
+              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+                <h2>Senior Art Director</h2>
+                <strong>Microsoft</strong>
+              </div>
+              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                <span class="icon-room"></span> Anywhere
+              </div>
+              <div class="job-listing-meta">
+                <span class="badge badge-success">Full Time</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
+            <a href="job-single.html"></a>
+            <div class="job-listing-logo">
+              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_5.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </div>
+
+            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
+              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+                <h2>Product Designer</h2>
+                <strong>Puma</strong>
+              </div>
+              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                <span class="icon-room"></span> San Mateo, CA
+              </div>
+              <div class="job-listing-meta">
+                <span class="badge badge-success">Full Time</span>
+              </div>
+            </div>
+          </li>
+          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
+            <a href="job-single.html"></a>
+            <div class="job-listing-logo">
+              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_1.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </div>
+
+            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
+              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+                <h2>Product Designer</h2>
+                <strong>Adidas</strong>
+              </div>
+              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                <span class="icon-room"></span> New York, New York
+              </div>
+              <div class="job-listing-meta">
+                <span class="badge badge-danger">Part Time</span>
+              </div>
+            </div>
+
+          </li>
+          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
+            <a href="job-single.html"></a>
+            <div class="job-listing-logo">
+              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_2.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </div>
+
+            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
+              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+                <h2>Digital Marketing Director</h2>
+                <strong>Sprint</strong>
+              </div>
+              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                <span class="icon-room"></span> Overland Park, Kansas
+              </div>
+              <div class="job-listing-meta">
+                <span class="badge badge-success">Full Time</span>
+              </div>
+            </div>
+          </li>
+
+
+
+
+        </ul>
+
+        {{-- <div class="row pagination-wrap">
+          <div class="col-md-6 text-center text-md-left mb-4 mb-md-0">
+            <span>Showing 1-7 Of 43,167 Jobs</span>
+          </div>
+          <div class="col-md-6 text-center text-md-right">
+            <div class="custom-pagination ml-auto">
+              <a href="#" class="prev">Prev</a>
+              <div class="d-inline-block">
+              <a href="#" class="active">1</a>
+              <a href="#">2</a>
+              <a href="#">3</a>
+              <a href="#">4</a>
+              </div>
+              <a href="#" class="next">Next</a>
+            </div>
+          </div>
+        </div> --}}
+
+      </div>
+    </section>
+
+    {{-- <section class="py-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 mb-5">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/lolo.jpg')}}" width="700px" alt="Image" class="img-fluid">
+          <div class="col-md-8">
+            <h2 class="text-white">Looking For A Job?</h2>
+            <p class="mb-0 text-white lead">Lorem ipsum dolor sit amet consectetur adipisicing elit tempora adipisci impedit.</p>
           </div>
-          <div class="col-lg-5 ml-auto section-title">
-            <span class="sub-title mb-2 d-block">Acquaint Us</span>
-            <h2 class="title text-primary mb-3">About us</h2>
-            <p>Laundry ini berdiri sejak tahun 1990 </p>
-            <p class="mb-4">Banyak warga yang dipusingkan dengan pakaian menumpuk dan tidak kering-kering, tidak ada waktu untuk mencuci dan pembantu pulang kampung. Aktivitas sehari-hari seperti mencuci baju, tidak semua menyempatkan diri untuk mencuci, apalagi mahasiswa yang saat ini tugas kuliah dari dosen yang bertumpuk-tumpuk membuat mereka enggan untuk mencuci dan lebih mempercayakannya kepada jasa tukang cuci atau pengusaha laundry dengan alasan menghemat waktu dan agar lebih berkonsentrasi untuk menyelesaikan tugas kuliahnya. Selera warga kota yang menginginkan bajunya bersih, rapi, dan wangi dalam sekejap jadi celah bisnis menggiurkan. Dewasa ini kebutuhan akan jasa laundry semakin meningkat baik dibidang Rumah Tangga, rumah sewa karyawan, Salon, Rumah Sakit, Apartemen dan Hotel.</p>
+          <div class="col-md-3 ml-auto">
+            <a href="#" class="btn btn-warning btn-block btn-lg">Sign Up</a>
           </div>
         </div>
       </div>
-    </div> <!-- .END site-section -->
+    </section> --}}
 
 
-    <div class="site-section" id="what-we-do-section">
+    <section class="site-section py-4">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-6 section-title">
-            <span class="sub-title mb-2 d-block">Auto Cleaning</span>
-            <h2 class="title text-primary">Gallery Karyawan</h2>
+
+        <div class="row align-items-center">
+          <div class="col-12 text-center mt-4 mb-5">
+            <div class="row justify-content-center">
+              <div class="col-md-7">
+                <h2 class="section-title mb-2">Company We've Helped</h2>
+                <p class="lead">Porro error reiciendis commodi beatae omnis similique voluptate rerum ipsam fugit mollitia ipsum facilis expedita tempora suscipit iste</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-6 col-lg-3 col-md-6 text-center">
+            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_mailchimp.svg')}}" alt="Image" class="img-fluid logo-1">
+          </div>
+          <div class="col-6 col-lg-3 col-md-6 text-center">
+            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_paypal.svg')}}" alt="Image" class="img-fluid logo-2">
+          </div>
+          <div class="col-6 col-lg-3 col-md-6 text-center">
+            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_stripe.svg')}}" alt="Image" class="img-fluid logo-3">
+          </div>
+          <div class="col-6 col-lg-3 col-md-6 text-center">
+            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_visa.svg')}}" alt="Image" class="img-fluid logo-4">
+          </div>
+
+          <div class="col-6 col-lg-3 col-md-6 text-center">
+            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_apple.svg')}}" alt="Image" class="img-fluid logo-5">
+          </div>
+          <div class="col-6 col-lg-3 col-md-6 text-center">
+            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_tinder.svg')}}" alt="Image" class="img-fluid logo-6">
+          </div>
+          <div class="col-6 col-lg-3 col-md-6 text-center">
+            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_sony.svg')}}" alt="Image" class="img-fluid logo-7">
+          </div>
+          <div class="col-6 col-lg-3 col-md-6 text-center">
+            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_airbnb.svg')}}" alt="Image" class="img-fluid logo-8">
           </div>
         </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 mb-5 person">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/kk.jpeg')}}" alt="Image" class="img-fluid mb-5">
+      </div>
+    </section>
 
+
+    <section class="bg-light pt-5 testimony-full">
+
+        <div class="owl-carousel single-carousel">
+
+
+          <div class="container">
             <div class="row">
-              <div class="col-lg-10 ml-auto">
-                <div class="pr-lg-5">
-                  <h3>Asep Udin</h3>
-                  <span class="mb-4 d-block">Bandung, 02 mei 1989</span>
-                  <p>Saya mulai bekerja disini sejak tahun 2001 dari pertama laundry ini berdiri udah hampir 19 tahun saya bekerja. </p>
-                  <p class="d-flex align-items-center">
-                    <span class="mr-3 text-black">Follow me:</span>
-                    <a href="#" class="twitter pr-2 pt-2 pb-2 pl-0"><span class="icon-twitter"></span></a>
-                    <a href="#" class="facebook p-2"><span class="icon-facebook"></span></a>
-                    <a href="#" class="dribbble p-2"><span class="icon-dribbble"></span></a>
-                    <a href="#" class="instagram p-2"><span class="icon-instagram"></span></a>
-                    <a href="#" class="linkedin p-2"><span class="icon-linkedin"></span></a>
-                  </p>
-                </div>
+              <div class="col-lg-6 align-self-center text-center text-lg-left">
+                <blockquote>
+                  <p>&ldquo;Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae.&rdquo;</p>
+                  <p><cite> &mdash; Corey Woods, @Dribbble</cite></p>
+                </blockquote>
+              </div>
+              <div class="col-lg-6 align-self-end text-center text-lg-right">
+                <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/person_transparent_2.png')}}" alt="Image" class="img-fluid mb-0">
               </div>
             </div>
           </div>
-          <div class="col-lg-6 person">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/lulu.jpg')}}" alt="Image" class="img-fluid mb-5">
+
+          <div class="container">
             <div class="row">
-              <div class="col-lg-10 ml-auto">
-                <div class="pr-lg-5">
-                  <h3>Jajang</h3>
-                  <span class="mb-4 d-block">Bandung 19 April 1980</span>
-                  <p>Saya bekerja disini sejak dulu tahun 2002 dan sekarang sampai tahun ini saya masih tetap bekerja di laundry auto cleaning.</p>
-                  <p class="d-flex align-items-center">
-                    <span class="mr-3 text-black">Follow me:</span>
-                    <a href="#" class="twitter pr-2 pt-2 pb-2 pl-0"><span class="icon-twitter"></span></a>
-                    <a href="#" class="github p-2"><span class="icon-github"></span></a>
-                    <a href="#" class="dribbble p-2"><span class="icon-dribbble"></span></a>
-                    <a href="#" class="instagram p-2"><span class="icon-instagram"></span></a>
-                    <a href="#" class="linkedin p-2"><span class="icon-linkedin"></span></a>
-                  </p>
-                </div>
+              <div class="col-lg-6 align-self-center text-center text-lg-left">
+                <blockquote>
+                  <p>&ldquo;Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae.&rdquo;</p>
+                  <p><cite> &mdash; Chris Peters, @Google</cite></p>
+                </blockquote>
+              </div>
+              <div class="col-lg-6 align-self-end text-center text-lg-right">
+                <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/person_transparent.png')}}" alt="Image" class="img-fluid mb-0">
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-section" id="portfolio-section">
-      <div class="container">
-        <div class="row mb-5 ">
-          <div class="col-md-7 section-title text-center mx-auto">
-            <span class="sub-title mb-2 d-block">Recent Works</span>
-            <h2 class="title text-primary mb-3">Alat Alat Laundry</h2>
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/papan.jpg')}}" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
-            <h3>Alat Setrika</h3>
-            <p class="mb-4">cara menghilangkan kerutan dari pakaian dengan alat yang dipanaskan. Alat yang biasanya digunakan untuk hal ini juga disebut "setrika". Biasanya pakaian yang baru dicuci harus disetrika agar kembali mulus.</p>
-            <p class="mb-4"><a href="#" class="readmore">Kunjungi Kami</a></p>
-            <div class="testimonial bg-white h-100">
-              <blockquote class="mb-3">
-                {{-- <p>&ldquo;Far far away, behind the word mountains, <strong>far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</strong> right at the coast of the Semantics, a large language ocean.&rdquo;</p> --}}
-              </blockquote>
-              <div class="d-flex align-items-center vcard">
-                <figure class="mb-0 mr-3">
-                  <img src="{{ asset('assets/frontend/grunt/grunt/images/mila.jpg')}}" alt="Image" class="img-fluid ounded-circle">
-                </figure>
-                <div class="vcard-text">
-                  <ul>
-                    <li><a href="https://www.instagram.com/renisamila02/"><i class="fa fa-instagram"></i>Oninsta renisamila02</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mb-5">
-          <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/lop.jpg')}}" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-5 h-100 jm-sticky-top mr-auto order-2 order-lg-1">
-            <h3>Pengharum Pakaian</h3>
-            <p class="mb-4">pewangi digunakan untuk menimbulkan aroma wangi pada badan atau baju yang kita pakai sehari – hari. Bisa juga untuk mengharumkan ruangan. ... Di antara zat-zat tambahan yang dapat berfungsi sebagai propelan tersebut ada yang dapatmencemari lingkungan..</p>
-            <p class="mb-4"><a href="#" class="readmore">Kunjungi Kami</a></p>
-            <div class="testimonial bg-white h-100">
-              <blockquote class="mb-3">
-                {{-- <p>&ldquo;Kunjungi Akun Kami <strong>flows by their place and supplies it with the necessary regelialia</strong>. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p> --}}
-              </blockquote>
-              <div class="d-flex align-items-center vcard">
-                <figure class="mb-0 mr-3">
-                  <img src="{{ asset('assets/frontend/grunt/grunt/images/mila.jpg')}}" alt="Image" class="img-fluid ounded-circle">
-                </figure>
-                <div class="vcard-text">
-                  <ul>
-                    <li><a href="https://www.instagram.com/renisamila02/"><i class="fa fa-instagram"></i>Oninsta renisamila02</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-          <div class="row mb-5">
-          <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="{{ asset('assets/frontend/grunt/grunt/images/pl.png')}}" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
-            <h3>Mesin Cuci</h3>
-            <p class="mb-4">Disinilah fungsi dryer atau pengering baju pada mesin cuci sangat bermanfaat untuk kegiatan mencuci baju anda. Sesuai dengan namanya, dryer atau pengering mesin cuci bertugas untuk membantu mengeringkan pakaian yang baru saja dicuci oleh washer atau mesin cuci.</p>
-            <p class="mb-4"><a href="#" class="readmore">Kunjungi Kami</a></p>
-            <div class="testimonial bg-white h-100">
-              <blockquote class="mb-3">
-                {{-- <p>&ldquo;Far far away, behind the word mountains, <strong>far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</strong> right at the coast of the Semantics, a large language ocean.&rdquo;</p> --}}
-              </blockquote>
-              <div class="d-flex align-items-center vcard">
-                <figure class="mb-0 mr-3">
-                  <img src="{{ asset('assets/frontend/grunt/grunt/images/mila.jpg')}}" alt="Image" class="img-fluid ounded-circle">
-                </figure>
-                <div class="vcard-text">
-                  <ul>
-                    <li><a href="https://www.instagram.com/renisamila02/"><i class="fa fa-instagram"></i>Oninsta renisamila02</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
       </div>
-    </div>
 
-    {{-- <div class="site-section bg-light">
-      <div class="container">
-         <div class="row mb-5 ">
-          <div class="col-md-7 section-title text-center mx-auto">
-            <span class="sub-title mb-2 d-block">Testimonials</span>
-            <h2 class="title text-primary mb-3">Our Client Sayings</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 mb-4">
-            <div class="testimonial bg-white h-100">
-              <blockquote class="mb-3">
-                <p>&ldquo;Far far away, behind the word mountains, <strong>far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</strong> right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-              </blockquote>
-              <div class="d-flex align-items-center vcard">
-                <figure class="mb-0 mr-3">
-                  <img src="{{ asset('assets/frontend/grunt/grunt/images/person_3.jpg')}}" alt="Image" class="img-fluid ounded-circle">
-                </figure>
-                <div class="vcard-text">
-                  <span class="d-block">Jacob Spencer</span>
-                  <span class="position">Web Designer</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="testimonial bg-white h-100">
-              <blockquote class="mb-3">
-                <p>&ldquo;A small river named Duden <strong>flows by their place and supplies it with the necessary regelialia</strong>. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
-              </blockquote>
-              <div class="d-flex align-items-center vcard">
-                <figure class="mb-0 mr-3">
-                  <img src="{{ asset('assets/frontend/grunt/grunt/images/person_4.jpg')}}" alt="Image" class="img-fluid ounded-circle">
-                </figure>
-                <div class="vcard-text">
-                  <span class="d-block">Jean Smith</span>
-                  <span class="position">Web Designer</span>
-                </div>
-              </div>
-            </div>
-          </div>
+    </section>
 
-          <div class="col-lg-6 mb-4">
-            <div class="testimonial bg-white h-100">
-              <blockquote class="mb-3">
-                <p>&ldquo;A small river named Duden <strong>flows by their place and supplies it with the necessary regelialia</strong>. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
-              </blockquote>
-              <div class="d-flex align-items-center vcard">
-                <figure class="mb-0 mr-3">
-                  <img src="{{ asset('assets/frontend/grunt/grunt/images/person_4.jpg')}}" alt="Image" class="img-fluid ounded-circle">
-                </figure>
-                <div class="vcard-text">
-                  <span class="d-block">Jean Smith</span>
-                  <span class="position">Web Designer</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="testimonial bg-white h-100">
-              <blockquote class="mb-3">
-                <p>&ldquo;Far far away, behind the word mountains, <strong>far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</strong> right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-              </blockquote>
-              <div class="d-flex align-items-center vcard">
-                <figure class="mb-0 mr-3">
-                  <img src="{{ asset('assets/frontend/grunt/grunt/images/person_3.jpg')}}" alt="Image" class="img-fluid ounded-circle">
-                </figure>
-                <div class="vcard-text">
-                  <span class="d-block">Jacob Spencer</span>
-                  <span class="position">Web Designer</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> --}}
-
-
-
-    <div class="site-section" id="studio-section">
-      <div class="container">
-
-        <div class="row mb-5 ">
-          <div class="col-md-7 section-title text-center mx-auto">
-            <span class="sub-title mb-2 d-block">Photos</span>
-            <h2 class="title text-primary mb-3">Gallery Ruangan Laundry</h2>
-          </div>
-        </div>
-
-        <div id="posts" class="row no-gutter">
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('assets/frontend/grunt/grunt/images/lolo.jpg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset('assets/frontend/grunt/grunt/images/lolo.jpg')}}">
-            </a>
-          </div>
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('assets/frontend/grunt/grunt/images/pl.png')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset('assets/frontend/grunt/grunt/images/pl.png')}}">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('assets/frontend/grunt/grunt/images/ula.jpeg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset('assets/frontend/grunt/grunt/images/ula.jpeg')}}">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('assets/frontend/grunt/grunt/images/ll.jpeg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset('assets/frontend/grunt/grunt/images/ll.jpeg')}}">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('assets/frontend/grunt/grunt/images/ol.jpeg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset('assets/frontend/grunt/grunt/images/ol.jpeg')}}">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('assets/frontend/grunt/grunt/images/reg.jpeg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset('assets/frontend/grunt/grunt/images/reg.jpeg')}}">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('assets/frontend/grunt/grunt/images/index.jpeg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset('assets/frontend/grunt/grunt/images/index.jpeg')}}">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('assets/frontend/grunt/grunt/images/laundry020119.jpg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset('assets/frontend/grunt/grunt/images/laundry020119.jpg')}}">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('assets/frontend/grunt/grunt/images/yu.jpeg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset('assets/frontend/grunt/grunt/images/yu.jpeg')}}">
-            </a>
-          </div>
-
-
-        </div>
-      </div>
-    </div> <!-- END .site-section -->
-
-    <div class="site-section" id="contact-section">
-      <div class="container">
-        <form action="" class="contact-form">
-
-          <div class="section-title text-center mb-5">
-            <span class="sub-title mb-2 d-block">Get In Touch</span>
-            <h2 class="title text-primary">Contact Us</h2>
-          </div>
-
-          <div class="row mb-4">
-            <div class="col-md-6 mb-4 mb-md-0">
-              <input type="text" class="form-control" placeholder="First name">
-            </div>
-            <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="Last name">
-            </div>
-          </div>
-
-          <div class="row mb-4">
-            <div class="col-12">
-              <input type="text" class="form-control" placeholder="Email">
-            </div>
-          </div>
-
-          <div class="row mb-4">
-            <div class="col-12">
-              <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary btn-md">Send Message</button>
-            </div>
-          </div>
-
-        </form>
-      </div>
-    </div> <!-- END .site-section -->
-
-    <footer class="site-footer">
+    <section class="pt-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <div class="row mb-5">
-              <div class="col-12">
-                <h3 class="footer-heading mb-4">About Us</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-              </div>
-            </div>
-
-
-
-          </div>
-          <div class="col-lg-3 ml-auto">
-
-            <div class="row mb-5">
-              <div class="col-md-12">
-                <h3 class="footer-heading mb-4">Navigation</h3>
-              </div>
-              <div class="col-md-6 col-lg-6">
-                <ul class="list-unstyled">
-                  <li><a href="#home-section" class="smoothscroll">Home</a></li>
-                  <li><a href="#what-we-do-section" class="smoothscroll">What We Do</a></li>
-                  <li><a href="#about-section" class="smoothscroll">About Us</a></li>
-                  <li><a href="#team-section"  class="smoothscroll">Team</a></li>
-                </ul>
-              </div>
-
-            </div>
-
-          </div>
-
-
-          <div class="col-lg-4 mb-5 mb-lg-0">
-
-            <div class="mb-5">
-              <h3 class="footer-heading mb-2">Subscribe Newsletter</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-
-              <form method="post" class="form-subscribe">
-                <div class="form-group mb-3">
-                  <input type="text" class="form-control border-white text-white bg-transparent" placeholder="Enter full name" aria-label="Enter Email" aria-describedby="button-addon2">
-                </div>
-                <div class="form-group mb-3">
-                  <input type="text" class="form-control border-white text-white bg-transparent" placeholder="Enter email" aria-label="Enter Email" aria-describedby="button-addon2">
-                </div>
-                <div class="form-group">
-                  <button class="btn btn-primary px-5" type="submit">Subscribe</button>
-                </div>
-              </form>
-
-            </div>
-
-
-
-
-          </div>
-
-        </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="mb-4">
-                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-                </div>
-            <p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          <div class="col-md-6 align-self-center text-center text-md-left mb-5 mb-md-0">
+            <h2 class="text-white">Get The Mobile Apps</h2>
+            <p class="mb-5 lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit tempora adipisci impedit.</p>
+            <p class="mb-0">
+              <a href="#" class="btn btn-dark btn-md px-4 border-width-2"><span class="icon-apple mr-3"></span>App Store</a>
+              <a href="#" class="btn btn-dark btn-md px-4 border-width-2"><span class="icon-android mr-3"></span>Play Store</a>
             </p>
           </div>
+          <div class="col-md-6 ml-auto align-self-end">
+            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/apps.png')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <footer class="site-footer">
+
+      <a href="#top" class="smoothscroll scroll-top">
+        <span class="icon-keyboard_arrow_up"></span>
+      </a>
+
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-6 col-md-3 mb-4 mb-md-0">
+            <h3>Search Trending</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">Web Developers</a></li>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">HTML5</a></li>
+              <li><a href="#">CSS3</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3 mb-4 mb-md-0">
+            <h3>Company</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Resources</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3 mb-4 mb-md-0">
+            <h3>Support</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3 mb-4 mb-md-0">
+            <h3>Contact Us</h3>
+            <div class="footer-social">
+              <a href="#"><span class="icon-facebook"></span></a>
+              <a href="#"><span class="icon-twitter"></span></a>
+              <a href="#"><span class="icon-instagram"></span></a>
+              <a href="#"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12">
+            <p class="copyright"><small>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
+          </div>
         </div>
       </div>
     </footer>
+
   </div>
 
+    <!-- SCRIPTS -->
+    <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/jquery.min.js')}}"></script>
+    <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/isotope.pkgd.min.js')}}"></script>
+    <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/stickyfill.min.js')}}"></script>
+    <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/jquery.fancybox.min.js')}}"></script>
+    <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/jquery.easing.1.3.js')}}"></script>
 
-  <script src="{{ asset ('assets/frontend/grunt/grunt/js/jquery-3.3.1.min.js')}}"></script>
-  <script src="{{ asset ('assets/frontend/grunt/grunt/js/popper.min.js')}}"></script>
-  <script src="{{ asset ('assets/frontend/grunt/grunt/js/bootstrap.min.js')}}"></script>
-  <script src="{{ asset ('assets/frontend/grunt/grunt/js/owl.carousel.min.js')}}"></script>
-  <script src="{{ asset ('assets/frontend/grunt/grunt/js/aos.js')}}"></script>
-  <script src="{{ asset ('assets/frontend/grunt/grunt/js/jquery.sticky.js')}}"></script>
-  <script src="{{ asset ('assets/frontend/grunt/grunt/js/stickyfill.min.js')}}"></script>
-  <script src="{{ asset ('assets/frontend/grunt/grunt/js/jquery.easing.1.3.js')}}"></script>
-  <script src="{{ asset ('assets/frontend/grunt/grunt/js/isotope.pkgd.min.js')}}"></script>
+    <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/jquery.waypoints.min.js')}}"></script>
+    <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/jquery.animateNumber.min.js')}}"></script>
+    <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/owl.carousel.min.js')}}"></script>
 
-  <script src="{{ asset ('assets/frontend/grunt/grunt/js/jquery.fancybox.min.js')}}"></script>
-  <script src="{{ asset ('assets/frontend/grunt/grunt/js/main.js')}}"></script>
+    <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/bootstrap-select.min.js')}}"></script>
+
+    <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/custom.js')}}"></script>
 
 
   </body>
