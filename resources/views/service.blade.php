@@ -1,9 +1,11 @@
+
 <!doctype html>
 <html lang="en">
   <head>
     <title>JobBoard &mdash; Website Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 
     <link rel="stylesheet" href="{{ asset ('assets/frontend/jobboard/jobboard/css/custom-bs.css')}}">
     <link rel="stylesheet" href="{{ asset ('assets/frontend/jobboard/jobboard/css/jquery.fancybox.min.css')}}">
@@ -44,23 +46,23 @@
     <header class="site-navbar mt-3">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="site-logo col-6"><a href="index">Laundry</a></div>
+          <div class="site-logo col-6"><a href="index.html">Laundry</a></div>
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
               <li><a href="index" class="nav-link">Home</a></li>
-              <li><a href="about" class="active">About</a></li>
+              <li><a href="about">About</a></li>
               {{-- <li class="has-children">
-                <a href="job-listings.html">Service</a>
+                <a href="job-listings.html">Job Listings</a>
                 <ul class="dropdown">
-                  <li><a href="job-single.html">Price List</a></li>
-                  <li><a href="post-job.html">Promo</a></li>
+                  <li><a href="job-single.html">Job Single</a></li>
+                  <li><a href="post-job.html">Post a Job</a></li>
                 </ul>
               </li> --}}
               <li class="has-children">
-                <a href="service">Pages</a>
+                <a href="service" class="active">Pages</a>
                 <ul class="dropdown">
-                  <li><a href="service">Services</a></li>
+                  <li><a href="service" class="active">Services</a></li>
                   <li><a href="servicesingle">Service Single</a></li>
                   {{-- <li><a href="blog-single.html">Blog Single</a></li>
                   <li><a href="portfolio.html">Portfolio</a></li>
@@ -70,7 +72,7 @@
                   <li><a href="gallery.html">Gallery</a></li> --}}
                 </ul>
               </li>
-              <li><a href="blog.html">Blog</a></li>
+              <li><a href="blog">Blog</a></li>
               <li><a href="contact.html">Contact</a></li>
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
               <li class="d-lg-none"><a href="login.html">Log In</a></li>
@@ -94,138 +96,77 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-            <h1 class="text-white font-weight-bold">About Us</h1>
+            <h1 class="text-white font-weight-bold">Services</h1>
             <div class="custom-breadcrumbs">
               <a href="#">Home</a> <span class="mx-2 slash">/</span>
-              <span class="text-white"><strong>About Us</strong></span>
+              <span class="text-white"><strong>Services</strong></span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="py-5 bg-image overlay-primary fixed overlay" id="next-section" style="background-image: url('images/hero_1.jpg');">
+    <section class="site-section services-section bg-light block__62849" id="next-section">
       <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-7 text-center">
-            <h2 class="section-title mb-2 text-white">Our Services</h2>
-            <p class="lead text-white">Laundry Auto Cleaning Melayani Berbagai Kebutuhan Laundry Kamu, Mulai Dari Laundry Kiloan, Satuan, Layanan Antar Jemput, Satu Malam Selesai, 6 Jam Selesai, Paket Laundry, Bahkan Jika Kamu Memiliki Usaha Yang Memerlukan Jasa Laundry, Auto Cleaning Dapat Bekerjasama Untuk Memenuhi Kebutuhan Laundry Kamu.</p>
-          </div>
-        </div>
-        {{-- <div class="row pb-0 block__19738 section-counter">
 
-          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <strong class="number" data-number="1930">0</strong>
-            </div>
-            <span class="caption">Candidates</span>
-          </div> --}}
+        <div class="row">
+          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
-          {{-- <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <strong class="number" data-number="54">0</strong>
-            </div>
-            <span class="caption">Jobs Posted</span>
-          </div> --}}
-
-          {{-- <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <strong class="number" data-number="120">0</strong>
-            </div>
-            <span class="caption">Jobs Filled</span>
-          </div> --}}
-
-          {{-- <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <strong class="number" data-number="550">0</strong>
-            </div>
-            <span class="caption">Companies</span>
-          </div> --}}
-
-
-        </div>
-      </div>
-    </section>
-
-
-    <section class="site-section pb-0">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 mb-5 mb-lg-0">
-            <a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="block__96788">
-              <span class="play-icon"><span class="icon-play"></span></span>
-              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_6.jpg')}}" alt="Image" class="img-fluid img-shadow">
+            <a href="service-single.html" class="block__16443 text-center d-block">
+              {{-- <span class="custom-icon mx-auto"><span class="icon-magnet d-block"></span></span> --}}
+              <h3>Cuci Setrika Kiloan</h3>
+              <p>Laundry Kiloan menjadi pilihan favorit bagi kamu yang ingin laundry dalam kuantitas banyak namun dengan harga ekonomis</p>
             </a>
-          </div>
-          <div class="col-lg-5 ml-auto">
-            <h2 class="section-title mb-3">JobBoard For Freelancers, Web Developers</h2>
-            <p class="lead">Eveniet voluptatibus voluptates suscipit minima, cum voluptatum ut dolor, sed facere corporis qui, ea quisquam quis odit minus nulla vitae. Sit, voluptatem.</p>
-            <p>Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit!</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="site-section pt-0">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 mb-5 mb-lg-0 order-md-2">
-            <a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="block__96788">
-              <span class="play-icon"><span class="icon-play"></span></span>
-              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_8.jpg')}}" alt="Image" class="img-fluid img-shadow">
+          </div>
+          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+
+            <a href="service-single.html" class="block__16443 text-center d-block">
+              {{-- <span class="custom-icon mx-auto"><span class="icon-trophy d-block"></span></span> --}}
+              <h3>Setrika Kiloan</h3>
+              <p>Jasa Setrika Kiloan menjadi pilihan yang tepat bagi kamu yang memiliki mesin cuci dan pengering namun tidak ingin menyetrika sendiri.</p>
             </a>
+
           </div>
-          <div class="col-lg-5 mr-auto order-md-1  mb-5 mb-lg-0">
-            <h2 class="section-title mb-3">JobBoard For Workers</h2>
-            <p class="lead">Eveniet voluptatibus voluptates suscipit minima, cum voluptatum ut dolor, sed facere corporis qui, ea quisquam quis odit minus nulla vitae. Sit, voluptatem.</p>
-            <p>Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit!</p>
+          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+
+            <a href="service-single.html" class="block__16443 text-center d-block">
+              {{-- <span class="custom-icon mx-auto"><span class="icon-laptop d-block"></span></span> --}}
+              <h3>Cuci Satuan</h3>
+              <p>Jasa Cuci Satuan sangat sesuai buat laundry kamu yang ingin mendapatkan perhatian khusus. Pakaian kamu akan diperiksa secara detail untuk mendapatkan kualitas pencucian terbaik.</p>
+            </a>
+
+          </div>
+          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+
+            <a href="service-single.html" class="block__16443 text-center d-block">
+              {{-- <span class="custom-icon mx-auto"><span class="icon-search d-block"></span></span> --}}
+              <h3>Cuci Kering Kiloan</h3>
+              <p>Jika kamu ingin mencuci item laundry yang tidak perlu disetrika (seperti handuk, bathrobe, dsb), Jasa Cuci Kering Kiloan menjadi pilihan terbaik buat laundry kamu</p>
+            </a>
+
+          </div>
+          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+
+            <a href="service-single.html" class="block__16443 text-center d-block">
+              {{-- <span class="custom-icon mx-auto"><span class="icon-paper-plane d-block"></span></span> --}}
+              <h3>ODS & Express</h3>
+              <p>One Day Service (Selesai di hari berikutnya) dan Express (Selesai di hari yang sama) dapat menjadi pilihan terbaik buat kamu yang traveling ke Bandung, atau membutuhkan urgency yang tinggi</p>
+            </a>
+
+          </div>
+          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+
+            <a href="service-single.html" class="block__16443 text-center d-block">
+              {{-- <span class="custom-icon mx-auto"><span class="icon-plug d-block"></span></span> --}}
+              <h3>Pick Up & Delivery</h3>
+              <p class="d-sm-block">Bagi kamu yang tidak ingin datang ke laundry hanya untuk memberikan laundry kamu, hubungi kami dan kami yang akan datang mengambil dan mengirimkan laundry kamu ketika sudah selesai</p>
+            </a>
+
           </div>
         </div>
-      </div>
-    </section>
 
 
-    <section class="site-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center" data-aos="fade">
-            <h2 class="section-title mb-3">Our Team</h2>
-          </div>
-        </div>
-
-        <div class="row align-items-center block__69944">
-
-          <div class="col-md-6">
-            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/person_6.jpg')}}" alt="Image" class="img-fluid mb-4 rounded">
-          </div>
-
-          <div class="col-md-6">
-            <h3>Elisabeth Smith</h3>
-            <p class="text-muted">Creative Director</p>
-            <p>Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae voluptatibus ut? Ex vel  ad explicabo iure ipsa possimus consectetur neque rem molestiae eligendi velit?.</p>
-            <div class="social mt-4">
-              <a href="#"><span class="icon-facebook"></span></a>
-              <a href="#"><span class="icon-twitter"></span></a>
-              <a href="#"><span class="icon-instagram"></span></a>
-              <a href="#"><span class="icon-linkedin"></span></a>
-            </div>
-          </div>
-
-          <div class="col-md-6 order-md-2 ml-md-auto">
-            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/person_5.jpg')}}" alt="Image" class="img-fluid mb-4 rounded">
-          </div>
-
-          <div class="col-md-6">
-            <h3>Chintan Patel</h3>
-            <p class="text-muted">Creative Director</p>
-            <p>Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae voluptatibus ut? Ex vel  ad explicabo iure ipsa possimus consectetur neque rem molestiae eligendi velit?.</p>
-            <div class="social mt-4">
-              <a href="#"><span class="icon-facebook"></span></a>
-              <a href="#"><span class="icon-twitter"></span></a>
-              <a href="#"><span class="icon-instagram"></span></a>
-              <a href="#"><span class="icon-linkedin"></span></a>
-            </div>
-          </div>
       </div>
     </section>
 
@@ -306,6 +247,7 @@
     <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/bootstrap-select.min.js')}}"></script>
 
     <script src="{{ asset ('assets/frontend/jobboard/jobboard/js/custom.js')}}"></script>
+
 
 
   </body>
