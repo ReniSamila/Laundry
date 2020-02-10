@@ -35,6 +35,10 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 
 
 // Route::get('/backend', function () {
@@ -45,6 +49,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::group(['prefix'=>'backend', 'middleware'=>['auth']], function(){
-    Route::resource('/home', 'backendController');
+Route::group(['prefix' => 'backend', 'middleware' => ['auth']], function () {
+    Route::resource('/pegawai','pegawaiController');
+
 });
+
+
+// Route::resource('/admin/pegawai', 'pegawaiController');

@@ -50,15 +50,15 @@
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-              <li><a href="index.html" class="nav-link">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li class="has-children">
+              <li><a href="index" class="nav-link">Home</a></li>
+              <li><a href="about">About</a></li>
+              {{-- <li class="has-children">
                 <a href="job-listings.html">Job Listings</a>
                 <ul class="dropdown">
                   <li><a href="job-single.html">Job Single</a></li>
                   <li><a href="post-job.html">Post a Job</a></li>
                 </ul>
-              </li>
+              </li> --}}
               <li class="has-children">
                 <a href="services.html">Pages</a>
                 <ul class="dropdown">
@@ -73,7 +73,7 @@
                 </ul>
               </li>
               <li><a href="blog" class="active">Blog</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact">Contact</a></li>
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
               <li class="d-lg-none"><a href="login.html">Log In</a></li>
             </ul>
