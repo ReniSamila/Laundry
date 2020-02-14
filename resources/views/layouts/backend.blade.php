@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Stellar Admin</title>
+    <title>Laundry</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="{{ asset('assets/backend/backend/vendors/simple-line-icons/css/simple-line-icons.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/backend/backend/vendors/flag-icon-css/css/flag-icon.min.css')}}">
@@ -32,7 +32,7 @@
           <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo" /></a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-center flex-grow-1">
-          <h5 class="mb-0 font-weight-medium d-none d-lg-flex">Welcome To My Laundry</h5>
+          <h5 class="mb-0 font-weight-medium d-none d-lg-flex">Hello!KinimanagementusahaLaundrymenjadilebihmudahdanpraktis.</h5>
           <ul class="navbar-nav navbar-nav-right ml-auto">
             <form class="search-form d-none d-md-block" action="#">
               <i class="icon-magnifier"></i>
@@ -77,14 +77,14 @@
                 </a>
               </div>
             </li>
-            {{-- <li class="nav-item dropdown language-dropdown d-none d-sm-flex align-items-center">
+            <li class="nav-item dropdown language-dropdown d-none d-sm-flex align-items-center">
               <a class="nav-link d-flex align-items-center dropdown-toggle" id="LanguageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
                 <div class="d-inline-flex mr-3">
                   <i class="flag-icon flag-icon-us"></i>
                 </div>
                 <span class="profile-text font-weight-normal">English</span>
               </a>
-              {{-- <div class="dropdown-menu dropdown-menu-left navbar-dropdown py-2" aria-labelledby="LanguageDropdown">
+              <div class="dropdown-menu dropdown-menu-left navbar-dropdown py-2" aria-labelledby="LanguageDropdown">
                 <a class="dropdown-item">
                   <i class="flag-icon flag-icon-us"></i> English </a>
                 <a class="dropdown-item">
@@ -93,8 +93,8 @@
                   <i class="flag-icon flag-icon-ae"></i> Arabic </a>
                 <a class="dropdown-item">
                   <i class="flag-icon flag-icon-ru"></i> Russian </a>
-              </div> --}}
-            </li> --}}
+              </div>
+            </li>
             <li class="nav-item dropdown d-none d-xl-inline-flex user-dropdown">
               <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
                 <img class="img-xs rounded-circle ml-2" src="{{ asset('assets/backend/backend/images/faces/face8.jpg')}}" alt="Profile image"> <span class="font-weight-normal"> Reni Samila </span></a>

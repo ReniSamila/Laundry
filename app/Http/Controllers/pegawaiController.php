@@ -56,7 +56,7 @@ class pegawaiController extends Controller
     public function show($id)
     {
         $pegawai = Pegawai::findOrFail($id);
-        return view('backend.pegawai.show', compact('pegawai'));
+        return view('backend.Pegawai.show', compact('pegawai'));
     }
 
     /**
@@ -68,7 +68,7 @@ class pegawaiController extends Controller
     public function edit($id)
     {
          $pegawai = Pegawai::findOrFail($id);
-        return view('backend.pegawai.edit',compact('pegawai'));
+        return view('backend.Pegawai.edit',compact('pegawai'));
     }
 
     /**

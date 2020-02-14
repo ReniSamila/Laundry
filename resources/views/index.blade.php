@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>JobBoard &mdash; Website Template by Colorlib</title>
+    <title>Laundry</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="" />
@@ -51,7 +51,7 @@
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-              <li><a href="index.html" class="nav-link active">Home</a></li>
+              <li><a href="./" class="nav-link active">Home</a></li>
               <li><a href="about">About</a></li>
               {{-- <li class="has-children">
                 <a href="job-listings.html">Job Listings</a>
@@ -60,23 +60,25 @@
                   <li><a href="post-job.html">Post a Job</a></li>
                 </ul>
               </li> --}}
-              <li class="has-children">
+              <li><a href="service">Jadwal</a></li>
+              {{-- <li class="has-children">
                 <a href="service">Pages</a>
                 <ul class="dropdown">
                   <li><a href="service">Services</a></li>
                   <li><a href="servicesingle">Service Single</a></li>
-                  {{-- <li><a href="blog-single.html">Blog Single</a></li>
+                  <li><a href="blog-single.html">Blog Single</a></li>
                   <li><a href="portfolio.html">Portfolio</a></li>
                   <li><a href="portfolio-single.html">Portfolio Single</a></li>
                   <li><a href="testimonials.html">Testimonials</a></li>
                   <li><a href="faq.html">Frequently Ask Questions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li> --}}
+                  <li><a href="gallery.html">Gallery</a></li>
                 </ul>
-              </li>
+              </li> --}}
               <li><a href="blog">Blog</a></li>
-              <li><a href="contact">Contact</a></li>
+              <li><a href="gallery">Gallery</a></li>
+              {{-- <li><a href="contact">Contact</a></li> --}}
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
-              <li class="d-lg-none"><a href="login.html">Log In</a></li>
+              <li class="d-lg-none"><a href="login">Log In</a></li>
             </ul>
           </nav>
 
@@ -199,13 +201,77 @@
     <section class="site-section">
       <div class="container">
 
-        {{-- <div class="row mb-5 justify-content-center">
+        <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
-            <h2 class="section-title mb-2">43,167 Job Listed</h2>
+            <h2 class="section-title mb-2">Pickup Delivery Ke Seluruh Kota Bandung</h2>
           </div>
-        </div> --}}
+        </div>
 
-        <ul class="job-listings mb-5">
+         <section class="site-section services-section bg-light block__62849" id="next-section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+
+                        <a href="service-single.html" class="block__16443 text-center d-block">
+                            {{-- <span class="custom-icon mx-auto"><span class="icon-magnet d-block"></span></span> --}}
+                            <h3>Our Services</h3>
+                            <p>Autclean Laundry melayani berbagai kebutuhan laundry kamu, mulai dari Laundry Kiloan, satuan, layanan antar jemput, satu malam selesai, 6 jam selesai, paket laundry</p>
+                        </a>
+
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+
+                        <a href="service-single.html" class="block__16443 text-center d-block">
+                            {{-- <span class="custom-icon mx-auto"><span class="icon-trophy d-block"></span></span> --}}
+                            <h3>BEST VALUE</h3>
+                            <p>Ditunjang oleh mesin berstandar internasional, tenaga professional, dan manajemen laundry yang baik, setiap cucian kamu, kami perlakukan layaknya cucian kami sendiri</p>
+                        </a>
+
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+
+                        <a href="service-single.html" class="block__16443 text-center d-block">
+                            {{-- <span class="custom-icon mx-auto"><span class="icon-laptop d-block"></span></span> --}}
+                            <h3>FLEXIBLE</h3>
+                            <p>Autclean buka 7 hari seminggu (7.00 – 21.00) sehingga kapanpun kamu perlu laundry, kami siap membantu. Malas ke laundry? Hubungi kami, dan cucian kamu akan langsung diambil di tempat.</p>
+                        </a>
+
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+
+                        <a href="service-single.html" class="block__16443 text-center d-block">
+                            {{-- <span class="custom-icon mx-auto"><span class="icon-search d-block"></span></span> --}}
+                            <h3>ENVIRONMENT FRIENDLY</h3>
+                            <p>Kami berkomitmen pada keamanan dan keramahan lingkungan, mulai dari pemakaian bahan, hingga penyediaan tas laundry untuk mengurangi penggunaan plastik. Dengan laundry di Autclean, kamu bisa mendapatkan tas laundry ini secara GRATIS</p>
+                        </a>
+
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+
+                        <a href="service-single.html" class="block__16443 text-center d-block">
+                            {{-- <span class="custom-icon mx-auto"><span class="icon-paper-plane d-block"></span></span> --}}
+                            <h3>SURPRISING!</h3>
+                            <p>Berkat dukungan dari banyak customer kami, Autclean Laundry dapat terus berkolaborasi, berkembang, serta dapat memberikan kejutan, promo, reward, dan nilai lebih bagi customer kami. Terus dapatkan info promo dan konten eksklusif Autclean Laundry!</p>
+                        </a>
+
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
+
+                        <a href="service-single.html" class="block__16443 text-center d-block">
+                            {{-- <span class="custom-icon mx-auto"><span class="icon-plug d-block"></span></span> --}}
+                            <h3>COLLECT AND GET FREE!</h3>
+                            <p class="d-sm-block">Jangan buang nota kamu setiap bertransaksi di Autclean Laundry, baik melalui web atau datang ke tempat kami. Kumpulkan nota kamu dan tukarkan dengan beragam reward menarik seperti Cuci Gratis, Tas Laundry, atau Promo-Promo Khusus lainnya!</p>
+                        </a>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        {{-- <ul class="job-listings mb-5">
           <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
             <a href="job-single.html"></a>
             <div class="job-listing-logo">
@@ -348,7 +414,7 @@
 
 
 
-        </ul>
+        </ul> --}}
 
         {{-- <div class="row pagination-wrap">
           <div class="col-md-6 text-center text-md-left mb-4 mb-md-0">
@@ -371,19 +437,19 @@
       </div>
     </section>
 
-    {{-- <section class="py-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
+    <section class="py-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-8">
-            <h2 class="text-white">Looking For A Job?</h2>
-            <p class="mb-0 text-white lead">Lorem ipsum dolor sit amet consectetur adipisicing elit tempora adipisci impedit.</p>
+            <h2 class="text-white">Our Foundation</h2>
+            <p class="mb-0 text-white lead">Autclean Laundry telah dipercaya oleh ribuan customer di Kota Bandung. Kami menyadari setiap kepercayaan yang diberikan pada kami menjadi landasan utama dalam pelayanan Autclean Laundry</p>
           </div>
-          <div class="col-md-3 ml-auto">
-            <a href="#" class="btn btn-warning btn-block btn-lg">Sign Up</a>
-          </div>
+          {{-- <div class="col-md-3 ml-auto">
+            <a href="#" class="btn btn-warning btn-block btn-lg">Trusted By 5000+ Customers</a>
+          </div> --}}
         </div>
       </div>
-    </section> --}}
+    </section>
 
 
     <section class="site-section py-4">
@@ -393,37 +459,37 @@
           <div class="col-12 text-center mt-4 mb-5">
             <div class="row justify-content-center">
               <div class="col-md-7">
-                <h2 class="section-title mb-2">Company We've Helped</h2>
-                <p class="lead">Porro error reiciendis commodi beatae omnis similique voluptate rerum ipsam fugit mollitia ipsum facilis expedita tempora suscipit iste</p>
+                <h2 class="section-title mb-2">Catatan Laundry</h2>
+                <p class="lead">Laundry Auto Cleaning Melayani Berbagai Kebutuhan Laundry Kamu, Mulai Dari Laundry Kiloan, Satuan, Layanan Antar Jemput, Satu Malam Selesai, 6 Jam Selesai, Paket Laundry, Bahkan Jika Kamu Memiliki Usaha Yang Memerlukan Jasa Laundry, Auto Cleaning Dapat Bekerjasama Untuk Memenuhi Kebutuhan Laundry Kamu.</p>
               </div>
             </div>
 
           </div>
-          <div class="col-6 col-lg-3 col-md-6 text-center">
+          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
             <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_mailchimp.svg')}}" alt="Image" class="img-fluid logo-1">
-          </div>
-          <div class="col-6 col-lg-3 col-md-6 text-center">
+          </div> --}}
+          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
             <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_paypal.svg')}}" alt="Image" class="img-fluid logo-2">
-          </div>
-          <div class="col-6 col-lg-3 col-md-6 text-center">
+          </div> --}}
+          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
             <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_stripe.svg')}}" alt="Image" class="img-fluid logo-3">
-          </div>
-          <div class="col-6 col-lg-3 col-md-6 text-center">
+          </div> --}}
+          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
             <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_visa.svg')}}" alt="Image" class="img-fluid logo-4">
-          </div>
+          </div> --}}
 
-          <div class="col-6 col-lg-3 col-md-6 text-center">
+          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
             <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_apple.svg')}}" alt="Image" class="img-fluid logo-5">
-          </div>
-          <div class="col-6 col-lg-3 col-md-6 text-center">
+          </div> --}}
+          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
             <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_tinder.svg')}}" alt="Image" class="img-fluid logo-6">
-          </div>
-          <div class="col-6 col-lg-3 col-md-6 text-center">
+          </div> --}}
+          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
             <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_sony.svg')}}" alt="Image" class="img-fluid logo-7">
-          </div>
-          <div class="col-6 col-lg-3 col-md-6 text-center">
-            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_airbnb.svg')}}" alt="Image" class="img-fluid logo-8">
-          </div>
+          </div> --}}
+            {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
+                <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_airbnb.svg')}}" alt="Image" class="img-fluid logo-8">
+            </div> --}}
         </div>
       </div>
     </section>
@@ -466,7 +532,7 @@
 
     </section>
 
-    <section class="pt-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
+    {{-- <section class="pt-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row">
           <div class="col-md-6 align-self-center text-center text-md-left mb-5 mb-md-0">
@@ -482,7 +548,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
 
     <footer class="site-footer">
 

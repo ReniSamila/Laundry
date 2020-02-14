@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/index', function () {
+Route::get('/', function () {
     return view('index');
 });
 
@@ -27,18 +27,13 @@ Route::get('/service', function () {
     return view('service');
 });
 
-Route::get('/servicesingle', function () {
-    return view('servicesingle');
-});
-
 Route::get('/blog', function () {
     return view('blog');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/gallery', function () {
+    return view('gallery');
 });
-
 
 
 // Route::get('/backend', function () {

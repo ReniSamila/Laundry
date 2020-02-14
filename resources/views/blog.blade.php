@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>JobBoard &mdash; Website Template by Colorlib</title>
+    <title>Laundry</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -46,11 +46,11 @@
     <header class="site-navbar mt-3">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="site-logo col-6"><a href="index.html">JobBoard</a></div>
+          <div class="site-logo col-6"><a href="index.html">Laundry</a></div>
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-              <li><a href="index" class="nav-link">Home</a></li>
+              <li><a href="./" class="nav-link">Home</a></li>
               <li><a href="about">About</a></li>
               {{-- <li class="has-children">
                 <a href="job-listings.html">Job Listings</a>
@@ -59,23 +59,25 @@
                   <li><a href="post-job.html">Post a Job</a></li>
                 </ul>
               </li> --}}
-              <li class="has-children">
+              <li><a href="service">Services</a></li>
+              {{-- <li class="has-children">
                 <a href="services.html">Pages</a>
                 <ul class="dropdown">
                   <li><a href="service">Services</a></li>
                   <li><a href="servicesingle">Service Single</a></li>
-                  {{-- <li><a href="blog-single.html">Blog Single</a></li>
+                  <li><a href="blog-single.html">Blog Single</a></li>
                   <li><a href="portfolio.html">Portfolio</a></li>
                   <li><a href="portfolio-single.html">Portfolio Single</a></li>
                   <li><a href="testimonials.html">Testimonials</a></li>
                   <li><a href="faq.html">Frequently Ask Questions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li> --}}
+                  <li><a href="gallery.html">Gallery</a></li>
                 </ul>
-              </li>
+              </li> --}}
               <li><a href="blog" class="active">Blog</a></li>
-              <li><a href="contact">Contact</a></li>
+              <li><a href="gallery">Gallery</a></li>
+              {{-- <li><a href="contact">Contact</a></li> --}}
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
-              <li class="d-lg-none"><a href="login.html">Log In</a></li>
+              <li class="d-lg-none"><a href="login">Log In</a></li>
             </ul>
           </nav>
 
@@ -140,7 +142,7 @@
             <div>April 15, 2019 <span class="mx-2">|</span> <a href="#">2 Comments</a></div>
           </div>
         </div>
-        <div class="row pagination-wrap mt-5">
+        {{-- <div class="row pagination-wrap mt-5">
 
           <div class="col-md-12 text-center ">
             <div class="custom-pagination ml-auto">
@@ -154,7 +156,7 @@
               <a href="#" class="next">Next</a>
             </div>
           </div>
-        </div>
+        </div> --}}
 
       </div>
     </section>

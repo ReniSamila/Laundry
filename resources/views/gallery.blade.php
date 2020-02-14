@@ -1,7 +1,8 @@
+
 <!doctype html>
 <html lang="en">
   <head>
-    <title>JobBoard &mdash; Website Template by Colorlib</title>
+    <title>Laundry</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -49,8 +50,8 @@
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-              <li><a href="index" class="nav-link">Home</a></li>
-              <li><a href="about">About</a></li>
+              <li><a href="./" class="nav-link">Home</a></li>
+              <li><a href="about.html">About</a></li>
               {{-- <li class="has-children">
                 <a href="job-listings.html">Job Listings</a>
                 <ul class="dropdown">
@@ -58,23 +59,25 @@
                   <li><a href="post-job.html">Post a Job</a></li>
                 </ul>
               </li> --}}
-              <li class="has-children">
-                <a href="services">Pages</a>
+              <li><a href="service">Services</a></li>
+              {{-- <li class="has-children">
+                <a href="services.html">Pages</a>
                 <ul class="dropdown">
-                  <li><a href="services">Services</a></li>
-                  <li><a href="servicesingle">Service Single</a></li>
-                  {{-- <li><a href="blog-single.html">Blog Single</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="service-single.html">Service Single</a></li>
+                  <li><a href="blog-single.html">Blog Single</a></li>
                   <li><a href="portfolio.html">Portfolio</a></li>
                   <li><a href="portfolio-single.html">Portfolio Single</a></li>
                   <li><a href="testimonials.html">Testimonials</a></li>
                   <li><a href="faq.html">Frequently Ask Questions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li> --}}
+                  <li><a href="gallery.html" class="active">Gallery</a></li>
                 </ul>
-              </li>
+              </li> --}}
               <li><a href="blog">Blog</a></li>
-              <li><a href="contact" class="active">Contact</a></li>
+              <li><a href="gallery" class="active">Gallery</a></li>
+              {{-- <li><a href="contact.html">Contact</a></li> --}}
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
-              <li class="d-lg-none"><a href="login.html">Log In</a></li>
+              <li class="d-lg-none"><a href="login">Log In</a></li>
             </ul>
           </nav>
 
@@ -95,10 +98,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-            <h1 class="text-white font-weight-bold">Contact Us</h1>
+            <h1 class="text-white font-weight-bold">Gallery</h1>
             <div class="custom-breadcrumbs">
-              <a href="#">Home</a> <span class="mx-2 slash">/</span>
-              <span class="text-white"><strong>Contact Us</strong></span>
+              <a href="index.html">Home</a> <span class="mx-2 slash">/</span>
+              <span class="text-white"><strong>Gallery</strong></span>
             </div>
           </div>
         </div>
@@ -108,107 +111,94 @@
     <section class="site-section" id="next-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 mb-5 mb-lg-0">
-            <form action="#" class="">
-
-              <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">First Name</label>
-                  <input type="text" id="fname" class="form-control">
-                </div>
-                <div class="col-md-6">
-                  <label class="text-black" for="lname">Last Name</label>
-                  <input type="text" id="lname" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-
-                <div class="col-md-12">
-                  <label class="text-black" for="email">Email</label>
-                  <input type="email" id="email" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-
-                <div class="col-md-12">
-                  <label class="text-black" for="subject">Subject</label>
-                  <input type="subject" id="subject" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="message">Message</label>
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
-                </div>
-              </div>
-
-
-            </form>
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_1.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_1.jpg')}}">
+            </a>
           </div>
-          <div class="col-lg-5 ml-auto">
-            <div class="p-4 mb-3 bg-white">
-              <p class="mb-0 font-weight-bold">Alamat</p>
-              <p class="mb-4">Jl. Pangarang No.39 A, Cikawao, Kec. Lengkong, Kota Bandung, Jawa Barat 40251</p>
-
-              <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#">(022) 20501876</a></p>
-
-              <p class="mb-0 font-weight-bold">Email</p>
-              <p class="mb-0"><a href="#">mileung53@gmail.com</a></p>
-
-            </div>
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_2.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_2.jpg')}}">
+            </a>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="site-section bg-light">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center" data-aos="fade">
-            <h2 class="section-title mb-3">Happy Candidates Says</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="block__87154 bg-white rounded">
-              <blockquote>
-                <p>&ldquo;Ipsum harum assumenda in eum vel eveniet numquam cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit&rdquo;</p>
-              </blockquote>
-              <div class="block__91147 d-flex align-items-center">
-                <figure class="mr-4"><img src="{{ asset ('assets/frontend/jobboard/jobboard/images/person_1.jpg')}}" alt="Image" class="img-fluid"></figure>
-                <div>
-                  <h3>Elisabeth Smith</h3>
-                  <span class="position">Creative Director</span>
-                </div>
-              </div>
-            </div>
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_3.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_3.jpg')}}">
+            </a>
           </div>
 
-          <div class="col-lg-6">
-            <div class="block__87154 bg-white rounded">
-              <blockquote>
-                <p>&ldquo;Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit&rdquo;</p>
-              </blockquote>
-              <div class="block__91147 d-flex align-items-center">
-                <figure class="mr-4"><img src="{{ asset ('assets/frontend/jobboard/jobboard/images/person_2.jpg')}}" alt="Image" class="img-fluid"></figure>
-                <div>
-                  <h3>Chris Peter</h3>
-                  <span class="position">Web Designer</span>
-                </div>
-              </div>
-            </div>
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_4.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_4.jpg')}}">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_5.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_5.jpg')}}">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_6.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_6.jpg')}}">
+            </a>
           </div>
 
+          <div class="col-md-6 col-lg-6 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_11.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_11.jpg')}}">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-6 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_2.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_2.jpg')}}">
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_7.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_7.jpg')}}">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_8.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_8.jpg')}}">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_9.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_9.jpg')}}">
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_10.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_10.jpg')}}">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_11.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_11.jpg')}}">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_12.jpg')}}" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_12.jpg')}}">
+            </a>
+          </div>
 
         </div>
       </div>

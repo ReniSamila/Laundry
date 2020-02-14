@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>JobBoard &mdash; Website Template by Colorlib</title>
+    <title>Laundry</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -48,7 +48,7 @@
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-              <li><a href="index" class="nav-link">Home</a></li>
+              <li><a href="./" class="nav-link">Home</a></li>
               <li><a href="about" class="active">About</a></li>
               {{-- <li class="has-children">
                 <a href="job-listings.html">Service</a>
@@ -57,23 +57,25 @@
                   <li><a href="post-job.html">Promo</a></li>
                 </ul>
               </li> --}}
-              <li class="has-children">
+              <li><a href="service">Services</a></li>
+              {{-- <li class="has-children">
                 <a href="service">Pages</a>
                 <ul class="dropdown">
                   <li><a href="service">Services</a></li>
                   <li><a href="servicesingle">Service Single</a></li>
-                  {{-- <li><a href="blog-single.html">Blog Single</a></li>
+                  <li><a href="blog-single.html">Blog Single</a></li>
                   <li><a href="portfolio.html">Portfolio</a></li>
                   <li><a href="portfolio-single.html">Portfolio Single</a></li>
                   <li><a href="testimonials.html">Testimonials</a></li>
                   <li><a href="faq.html">Frequently Ask Questions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li> --}}
+                  <li><a href="gallery.html">Gallery</a></li>
                 </ul>
-              </li>
+              </li> --}}
               <li><a href="blog">Blog</a></li>
-              <li><a href="contact">Contact</a></li>
+              <li><a href="gallery">Gallery</a></li>
+              {{-- <li><a href="contact">Contact</a></li> --}}
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
-              <li class="d-lg-none"><a href="login.html">Log In</a></li>
+              <li class="d-lg-none"><a href="login">Log In</a></li>
             </ul>
           </nav>
 
@@ -152,15 +154,14 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5 mb-lg-0">
-            <a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="block__96788">
-              <span class="play-icon"><span class="icon-play"></span></span>
-              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_6.jpg')}}" alt="Image" class="img-fluid img-shadow">
+            {{-- <a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="block__96788"> --}}
+              {{-- <span class="play-icon"><span class="icon-play"></span></span> --}}
+              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/coco.jpg')}}" alt="Image" class="img-fluid img-shadow">
             </a>
           </div>
           <div class="col-lg-5 ml-auto">
-            <h2 class="section-title mb-3">JobBoard For Freelancers, Web Developers</h2>
-            <p class="lead">Eveniet voluptatibus voluptates suscipit minima, cum voluptatum ut dolor, sed facere corporis qui, ea quisquam quis odit minus nulla vitae. Sit, voluptatem.</p>
-            <p>Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit!</p>
+            <h2 class="section-title mb-3">Sejarah Laundry</h2>
+            <p>Berdirinya Usaha Bisnis Laundry merupakan bisnis rumahan yang belakangan ini sedang marak, usaha laundry merupakan salah satu bentuk usaha yang cukup menjanjikan. Di era serba cepat kebutuhan manusia akan waktu sangat diperlukan keefektifan kita mengelola dan memanejemen semua aktivitas rumah tangga membuat masyarakat ingin serba praktis. </p>
           </div>
         </div>
       </div>
@@ -170,8 +171,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5 mb-lg-0 order-md-2">
-            <a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="block__96788">
-              <span class="play-icon"><span class="icon-play"></span></span>
+            {{-- <a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="block__96788">
+              <span class="play-icon"><span class="icon-play"></span></span> --}}
               <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_8.jpg')}}" alt="Image" class="img-fluid img-shadow">
             </a>
           </div>
