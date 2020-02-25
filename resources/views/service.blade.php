@@ -53,30 +53,9 @@
                         <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
                             <li><a href="./" class="nav-link">Home</a></li>
                             <li><a href="about">About</a></li>
-                            {{-- <li class="has-children">
-                                <a href="job-listings.html">Job Listings</a>
-                                <ul class="dropdown">
-                                    <li><a href="job-single.html">Job Single</a></li>
-                                    <li><a href="post-job.html">Post a Job</a></li>
-                                </ul>
-                            </li> --}}
                             <li><a href="service" class="active">Jadwal</a></li>
-                            {{-- <li class="has-children">
-                                <a href="service" class="active">Pages</a>
-                                <ul class="dropdown">
-                                    <li><a href="service" class="active">Services</a></li>
-                                    <li><a href="service-single.html">Service Single</a></li>
-                                    <li><a href="blog-single.html">Blog Single</a></li>
-                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                    <li><a href="portfolio-single.html">Portfolio Single</a></li>
-                                    <li><a href="testimonials.html">Testimonials</a></li>
-                                    <li><a href="faq.html">Frequently Ask Questions</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                </ul>
-                            </li> --}}
                             <li><a href="blog">Blog</a></li>
                             <li><a href="gallery">Gallery</a></li>
-                            {{-- <li><a href="contact">Contact</a></li> --}}
                             <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a>
                             </li>
                             <li class="d-lg-none"><a href="login">Log In</a></li>
@@ -122,7 +101,6 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                        <a class="block__16443 text-center d-block">
-                            {{-- <span class="custom-icon mx-auto"><span class="icon-magnet d-block"></span></span> --}}
                             <h3>Senin</h3>
                             <p>Buka 08.00</p>
                             <p>Tutup 19.00</p>
@@ -132,7 +110,6 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                        <a class="block__16443 text-center d-block">
-                            {{-- <span class="custom-icon mx-auto"><span class="icon-trophy d-block"></span></span> --}}
                             <h3>Selasa</h3>
                             <p>Buka 08.00</p>
                             <p>Tutup 19.00</p>
@@ -142,7 +119,6 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                        <a class="block__16443 text-center d-block">
-                            {{-- <span class="custom-icon mx-auto"><span class="icon-laptop d-block"></span></span> --}}
                             <h3>Rabu</h3>
                             <p>Buka 08.00</p>
                             <p>Tutup 19.00</p>
@@ -152,7 +128,6 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                        <a class="block__16443 text-center d-block">
-                            {{-- <span class="custom-icon mx-auto"><span class="icon-search d-block"></span></span> --}}
                             <h3>Kamis</h3>
                             <p>Buka 08.00</p>
                             <p>Tutup 19.00</p>
@@ -162,7 +137,6 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                        <a class="block__16443 text-center d-block">
-                            {{-- <span class="custom-icon mx-auto"><span class="icon-paper-plane d-block"></span></span> --}}
                             <h3>Jum'at</h3>
                             <p>Buka 08.00</p>
                             <p>Tutup 19.00</p>
@@ -172,7 +146,6 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a class="block__16443 text-center d-block">
-                            {{-- <span class="custom-icon mx-auto"><span class="icon-plug d-block"></span></span> --}}
                             <h3>Sabtu</h3>
                            <p>Buka 08.00</p>
                             <p>Tutup 19.00</p>

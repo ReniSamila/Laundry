@@ -52,30 +52,9 @@
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
               <li><a href="./" class="nav-link">Home</a></li>
               <li><a href="about">About</a></li>
-              {{-- <li class="has-children">
-                <a href="job-listings.html">Job Listings</a>
-                <ul class="dropdown">
-                  <li><a href="job-single.html">Job Single</a></li>
-                  <li><a href="post-job.html">Post a Job</a></li>
-                </ul>
-              </li> --}}
               <li><a href="service">Services</a></li>
-              {{-- <li class="has-children">
-                <a href="services.html">Pages</a>
-                <ul class="dropdown">
-                  <li><a href="service">Services</a></li>
-                  <li><a href="servicesingle">Service Single</a></li>
-                  <li><a href="blog-single.html">Blog Single</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="portfolio-single.html">Portfolio Single</a></li>
-                  <li><a href="testimonials.html">Testimonials</a></li>
-                  <li><a href="faq.html">Frequently Ask Questions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li> --}}
               <li><a href="blog" class="active">Blog</a></li>
               <li><a href="gallery">Gallery</a></li>
-              {{-- <li><a href="contact">Contact</a></li> --}}
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
               <li class="d-lg-none"><a href="login">Log In</a></li>
             </ul>
@@ -142,21 +121,6 @@
             <div>April 15, 2019 <span class="mx-2">|</span> <a href="#">2 Comments</a></div>
           </div>
         </div>
-        {{-- <div class="row pagination-wrap mt-5">
-
-          <div class="col-md-12 text-center ">
-            <div class="custom-pagination ml-auto">
-              <a href="#" class="prev">Prev</a>
-              <div class="d-inline-block">
-              <a href="#" class="active">1</a>
-              <a href="#">2</a>
-              <a href="#">3</a>
-              <a href="#">4</a>
-              </div>
-              <a href="#" class="next">Next</a>
-            </div>
-          </div>
-        </div> --}}
 
       </div>
     </section>

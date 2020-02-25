@@ -53,30 +53,9 @@
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
               <li><a href="./" class="nav-link active">Home</a></li>
               <li><a href="about">About</a></li>
-              {{-- <li class="has-children">
-                <a href="job-listings.html">Job Listings</a>
-                <ul class="dropdown">
-                  <li><a href="job-single.html">Job Single</a></li>
-                  <li><a href="post-job.html">Post a Job</a></li>
-                </ul>
-              </li> --}}
               <li><a href="service">Jadwal</a></li>
-              {{-- <li class="has-children">
-                <a href="service">Pages</a>
-                <ul class="dropdown">
-                  <li><a href="service">Services</a></li>
-                  <li><a href="servicesingle">Service Single</a></li>
-                  <li><a href="blog-single.html">Blog Single</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="portfolio-single.html">Portfolio Single</a></li>
-                  <li><a href="testimonials.html">Testimonials</a></li>
-                  <li><a href="faq.html">Frequently Ask Questions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li> --}}
               <li><a href="blog">Blog</a></li>
               <li><a href="gallery">Gallery</a></li>
-              {{-- <li><a href="contact">Contact</a></li> --}}
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
               <li class="d-lg-none"><a href="login">Log In</a></li>
             </ul>
@@ -104,46 +83,6 @@
               <h1 class="text-white font-weight-bold">Welcome To My Laundry</h1>
               <p>Laundry Auto Cleaning Yang Siap Menampung Banyak Cucian.</p>
             </div>
-            {{-- <form method="post" class="search-jobs-form">
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                  <input type="text" class="form-control form-control-lg" placeholder="Job title, Company...">
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                  <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Region">
-                    <option>Anywhere</option>
-                    <option>San Francisco</option>
-                    <option>Palo Alto</option>
-                    <option>New York</option>
-                    <option>Manhattan</option>
-                    <option>Ontario</option>
-                    <option>Toronto</option>
-                    <option>Kansas</option>
-                    <option>Mountain View</option>
-                  </select>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                  <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Job Type">
-                    <option>Part Time</option>
-                    <option>Full Time</option>
-                  </select>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                  <button type="submit" class="btn btn-primary btn-lg btn-block text-white btn-search"><span class="icon-search icon mr-2"></span>Search Job</button>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 popular-keywords">
-                  <h3>Trending Keywords:</h3>
-                  <ul class="keywords list-unstyled m-0 p-0">
-                    <li><a href="#" class="">UI Designer</a></li>
-                    <li><a href="#" class="">Python</a></li>
-                    <li><a href="#" class="">Developer</a></li>
-                  </ul>
-                </div>
-              </div>
-            </form>
-          </div> --}}
         </div>
       </div>
 
@@ -161,37 +100,12 @@
             <p class="lead text-white">Laundry Auto Cleaning Melayani Jasa Pencucian Dalam Bentuk Laundry Kiloan Dan Satuan, Mulai Dari Pakaian, Jaket, Sepatu, Tas, Dan Lainnya. Tinggal Hubungi Kami, Untuk Pickup Dan Delivery Laundry Langsung Di Tempat Kamu!</p>
           </div>
         </div>
-        {{-- <div class="row pb-0 block__19738 section-counter">
-
           <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
             <div class="d-flex align-items-center justify-content-center mb-2">
               <strong class="number" data-number="1930">0</strong>
             </div>
             <span class="caption">Candidates</span>
-          </div> --}}
-
-          {{-- <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <strong class="number" data-number="54">0</strong>
-            </div>
-            <span class="caption">Jobs Posted</span>
-          </div> --}}
-
-          {{-- <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <strong class="number" data-number="120">0</strong>
-            </div>
-            <span class="caption">Jobs Filled</span>
-          </div> --}}
-
-          {{-- <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <strong class="number" data-number="550">0</strong>
-            </div>
-            <span class="caption">Companies</span>
-          </div> --}}
-
-
+          </div>
         </div>
       </div>
     </section>
@@ -214,7 +128,6 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a href="service-single.html" class="block__16443 text-center d-block">
-                            {{-- <span class="custom-icon mx-auto"><span class="icon-magnet d-block"></span></span> --}}
                             <h3>Our Services</h3>
                             <p>Autclean Laundry melayani berbagai kebutuhan laundry kamu, mulai dari Laundry Kiloan, satuan, layanan antar jemput, satu malam selesai, 6 jam selesai, paket laundry</p>
                         </a>
@@ -223,7 +136,6 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a href="service-single.html" class="block__16443 text-center d-block">
-                            {{-- <span class="custom-icon mx-auto"><span class="icon-trophy d-block"></span></span> --}}
                             <h3>BEST VALUE</h3>
                             <p>Ditunjang oleh mesin berstandar internasional, tenaga professional, dan manajemen laundry yang baik, setiap cucian kamu, kami perlakukan layaknya cucian kami sendiri</p>
                         </a>
@@ -232,7 +144,6 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a href="service-single.html" class="block__16443 text-center d-block">
-                            {{-- <span class="custom-icon mx-auto"><span class="icon-laptop d-block"></span></span> --}}
                             <h3>FLEXIBLE</h3>
                             <p>Autclean buka 7 hari seminggu (7.00 – 21.00) sehingga kapanpun kamu perlu laundry, kami siap membantu. Malas ke laundry? Hubungi kami, dan cucian kamu akan langsung diambil di tempat.</p>
                         </a>
@@ -241,7 +152,6 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a href="service-single.html" class="block__16443 text-center d-block">
-                            {{-- <span class="custom-icon mx-auto"><span class="icon-search d-block"></span></span> --}}
                             <h3>ENVIRONMENT FRIENDLY</h3>
                             <p>Kami berkomitmen pada keamanan dan keramahan lingkungan, mulai dari pemakaian bahan, hingga penyediaan tas laundry untuk mengurangi penggunaan plastik. Dengan laundry di Autclean, kamu bisa mendapatkan tas laundry ini secara GRATIS</p>
                         </a>
@@ -250,7 +160,6 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a href="service-single.html" class="block__16443 text-center d-block">
-                            {{-- <span class="custom-icon mx-auto"><span class="icon-paper-plane d-block"></span></span> --}}
                             <h3>SURPRISING!</h3>
                             <p>Berkat dukungan dari banyak customer kami, Autclean Laundry dapat terus berkolaborasi, berkembang, serta dapat memberikan kejutan, promo, reward, dan nilai lebih bagi customer kami. Terus dapatkan info promo dan konten eksklusif Autclean Laundry!</p>
                         </a>
@@ -259,7 +168,6 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a href="service-single.html" class="block__16443 text-center d-block">
-                            {{-- <span class="custom-icon mx-auto"><span class="icon-plug d-block"></span></span> --}}
                             <h3>COLLECT AND GET FREE!</h3>
                             <p class="d-sm-block">Jangan buang nota kamu setiap bertransaksi di Autclean Laundry, baik melalui web atau datang ke tempat kami. Kumpulkan nota kamu dan tukarkan dengan beragam reward menarik seperti Cuci Gratis, Tas Laundry, atau Promo-Promo Khusus lainnya!</p>
                         </a>
@@ -271,169 +179,6 @@
             </div>
         </section>
 
-        {{-- <ul class="job-listings mb-5">
-          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
-            <a href="job-single.html"></a>
-            <div class="job-listing-logo">
-              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_1.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
-            </div>
-
-            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
-              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
-                <h2>Product Designer</h2>
-                <strong>Adidas</strong>
-              </div>
-              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                <span class="icon-room"></span> New York, New York
-              </div>
-              <div class="job-listing-meta">
-                <span class="badge badge-danger">Part Time</span>
-              </div>
-            </div>
-
-          </li>
-          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
-            <a href="job-single.html"></a>
-            <div class="job-listing-logo">
-              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_2.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
-            </div>
-
-            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
-              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
-                <h2>Digital Marketing Director</h2>
-                <strong>Sprint</strong>
-              </div>
-              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                <span class="icon-room"></span> Overland Park, Kansas
-              </div>
-              <div class="job-listing-meta">
-                <span class="badge badge-success">Full Time</span>
-              </div>
-            </div>
-          </li>
-
-          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
-            <a href="job-single.html"></a>
-            <div class="job-listing-logo">
-              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_3.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
-            </div>
-
-            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
-              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
-                <h2>Back-end Engineer (Python)</h2>
-                <strong>Amazon</strong>
-              </div>
-              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                <span class="icon-room"></span> Overland Park, Kansas
-              </div>
-              <div class="job-listing-meta">
-                <span class="badge badge-success">Full Time</span>
-              </div>
-            </div>
-          </li>
-
-          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
-            <a href="job-single.html"></a>
-            <div class="job-listing-logo">
-              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_4.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
-            </div>
-
-            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
-              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
-                <h2>Senior Art Director</h2>
-                <strong>Microsoft</strong>
-              </div>
-              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                <span class="icon-room"></span> Anywhere
-              </div>
-              <div class="job-listing-meta">
-                <span class="badge badge-success">Full Time</span>
-              </div>
-            </div>
-          </li>
-
-          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
-            <a href="job-single.html"></a>
-            <div class="job-listing-logo">
-              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_5.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
-            </div>
-
-            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
-              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
-                <h2>Product Designer</h2>
-                <strong>Puma</strong>
-              </div>
-              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                <span class="icon-room"></span> San Mateo, CA
-              </div>
-              <div class="job-listing-meta">
-                <span class="badge badge-success">Full Time</span>
-              </div>
-            </div>
-          </li>
-          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
-            <a href="job-single.html"></a>
-            <div class="job-listing-logo">
-              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_1.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
-            </div>
-
-            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
-              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
-                <h2>Product Designer</h2>
-                <strong>Adidas</strong>
-              </div>
-              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                <span class="icon-room"></span> New York, New York
-              </div>
-              <div class="job-listing-meta">
-                <span class="badge badge-danger">Part Time</span>
-              </div>
-            </div>
-
-          </li>
-          <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
-            <a href="job-single.html"></a>
-            <div class="job-listing-logo">
-              <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/job_logo_2.jpg')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
-            </div>
-
-            <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
-              <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
-                <h2>Digital Marketing Director</h2>
-                <strong>Sprint</strong>
-              </div>
-              <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                <span class="icon-room"></span> Overland Park, Kansas
-              </div>
-              <div class="job-listing-meta">
-                <span class="badge badge-success">Full Time</span>
-              </div>
-            </div>
-          </li>
-
-
-
-
-        </ul> --}}
-
-        {{-- <div class="row pagination-wrap">
-          <div class="col-md-6 text-center text-md-left mb-4 mb-md-0">
-            <span>Showing 1-7 Of 43,167 Jobs</span>
-          </div>
-          <div class="col-md-6 text-center text-md-right">
-            <div class="custom-pagination ml-auto">
-              <a href="#" class="prev">Prev</a>
-              <div class="d-inline-block">
-              <a href="#" class="active">1</a>
-              <a href="#">2</a>
-              <a href="#">3</a>
-              <a href="#">4</a>
-              </div>
-              <a href="#" class="next">Next</a>
-            </div>
-          </div>
-        </div> --}}
-
       </div>
     </section>
 
@@ -444,9 +189,6 @@
             <h2 class="text-white">Our Foundation</h2>
             <p class="mb-0 text-white lead">Autclean Laundry telah dipercaya oleh ribuan customer di Kota Bandung. Kami menyadari setiap kepercayaan yang diberikan pada kami menjadi landasan utama dalam pelayanan Autclean Laundry</p>
           </div>
-          {{-- <div class="col-md-3 ml-auto">
-            <a href="#" class="btn btn-warning btn-block btn-lg">Trusted By 5000+ Customers</a>
-          </div> --}}
         </div>
       </div>
     </section>
@@ -465,31 +207,6 @@
             </div>
 
           </div>
-          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
-            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_mailchimp.svg')}}" alt="Image" class="img-fluid logo-1">
-          </div> --}}
-          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
-            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_paypal.svg')}}" alt="Image" class="img-fluid logo-2">
-          </div> --}}
-          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
-            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_stripe.svg')}}" alt="Image" class="img-fluid logo-3">
-          </div> --}}
-          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
-            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_visa.svg')}}" alt="Image" class="img-fluid logo-4">
-          </div> --}}
-
-          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
-            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_apple.svg')}}" alt="Image" class="img-fluid logo-5">
-          </div> --}}
-          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
-            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_tinder.svg')}}" alt="Image" class="img-fluid logo-6">
-          </div> --}}
-          {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
-            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_sony.svg')}}" alt="Image" class="img-fluid logo-7">
-          </div> --}}
-            {{-- <div class="col-6 col-lg-3 col-md-6 text-center">
-                <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/logo_airbnb.svg')}}" alt="Image" class="img-fluid logo-8">
-            </div> --}}
         </div>
       </div>
     </section>
@@ -531,24 +248,6 @@
       </div>
 
     </section>
-
-    {{-- <section class="pt-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 align-self-center text-center text-md-left mb-5 mb-md-0">
-            <h2 class="text-white">Get The Mobile Apps</h2>
-            <p class="mb-5 lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit tempora adipisci impedit.</p>
-            <p class="mb-0">
-              <a href="#" class="btn btn-dark btn-md px-4 border-width-2"><span class="icon-apple mr-3"></span>App Store</a>
-              <a href="#" class="btn btn-dark btn-md px-4 border-width-2"><span class="icon-android mr-3"></span>Play Store</a>
-            </p>
-          </div>
-          <div class="col-md-6 ml-auto align-self-end">
-            <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/apps.png')}}" alt="Free Website Template by Free-Template.co" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </section> --}}
 
     <footer class="site-footer">
 

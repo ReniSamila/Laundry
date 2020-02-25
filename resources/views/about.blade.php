@@ -50,30 +50,9 @@
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
               <li><a href="./" class="nav-link">Home</a></li>
               <li><a href="about" class="active">About</a></li>
-              {{-- <li class="has-children">
-                <a href="job-listings.html">Service</a>
-                <ul class="dropdown">
-                  <li><a href="job-single.html">Price List</a></li>
-                  <li><a href="post-job.html">Promo</a></li>
-                </ul>
-              </li> --}}
               <li><a href="service">Services</a></li>
-              {{-- <li class="has-children">
-                <a href="service">Pages</a>
-                <ul class="dropdown">
-                  <li><a href="service">Services</a></li>
-                  <li><a href="servicesingle">Service Single</a></li>
-                  <li><a href="blog-single.html">Blog Single</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="portfolio-single.html">Portfolio Single</a></li>
-                  <li><a href="testimonials.html">Testimonials</a></li>
-                  <li><a href="faq.html">Frequently Ask Questions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li> --}}
               <li><a href="blog">Blog</a></li>
               <li><a href="gallery">Gallery</a></li>
-              {{-- <li><a href="contact">Contact</a></li> --}}
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
               <li class="d-lg-none"><a href="login">Log In</a></li>
             </ul>
@@ -114,37 +93,6 @@
             <p class="lead text-white">Laundry Auto Cleaning Melayani Berbagai Kebutuhan Laundry Kamu, Mulai Dari Laundry Kiloan, Satuan, Layanan Antar Jemput, Satu Malam Selesai, 6 Jam Selesai, Paket Laundry, Bahkan Jika Kamu Memiliki Usaha Yang Memerlukan Jasa Laundry, Auto Cleaning Dapat Bekerjasama Untuk Memenuhi Kebutuhan Laundry Kamu.</p>
           </div>
         </div>
-        {{-- <div class="row pb-0 block__19738 section-counter">
-
-          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <strong class="number" data-number="1930">0</strong>
-            </div>
-            <span class="caption">Candidates</span>
-          </div> --}}
-
-          {{-- <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <strong class="number" data-number="54">0</strong>
-            </div>
-            <span class="caption">Jobs Posted</span>
-          </div> --}}
-
-          {{-- <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <strong class="number" data-number="120">0</strong>
-            </div>
-            <span class="caption">Jobs Filled</span>
-          </div> --}}
-
-          {{-- <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <strong class="number" data-number="550">0</strong>
-            </div>
-            <span class="caption">Companies</span>
-          </div> --}}
-
-
         </div>
       </div>
     </section>
@@ -154,8 +102,6 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5 mb-lg-0">
-            {{-- <a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="block__96788"> --}}
-              {{-- <span class="play-icon"><span class="icon-play"></span></span> --}}
               <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/coco.jpg')}}" alt="Image" class="img-fluid img-shadow">
             </a>
           </div>
@@ -171,8 +117,6 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5 mb-lg-0 order-md-2">
-            {{-- <a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="block__96788">
-              <span class="play-icon"><span class="icon-play"></span></span> --}}
               <img src="{{ asset ('assets/frontend/jobboard/jobboard/images/sq_img_8.jpg')}}" alt="Image" class="img-fluid img-shadow">
             </a>
           </div>
