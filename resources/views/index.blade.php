@@ -55,7 +55,7 @@
               <li><a href="about">About</a></li>
               <li><a href="service">Jadwal</a></li>
               <li><a href="blog">Blog</a></li>
-              <li><a href="gallery">Gallery</a></li>
+              <li><a href="account">My Account</a></li>
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
               <li class="d-lg-none"><a href="login">Log In</a></li>
             </ul>
@@ -128,7 +128,7 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a href="service-single.html" class="block__16443 text-center d-block">
-                            <h3>Our Services</h3>
+                            <h3>Pelayanan Kami</h3>
                             <p>Autclean Laundry melayani berbagai kebutuhan laundry kamu, mulai dari Laundry Kiloan, satuan, layanan antar jemput, satu malam selesai, 6 jam selesai, paket laundry</p>
                         </a>
 
@@ -136,7 +136,7 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a href="service-single.html" class="block__16443 text-center d-block">
-                            <h3>BEST VALUE</h3>
+                            <h3>Nilai Terbaik</h3>
                             <p>Ditunjang oleh mesin berstandar internasional, tenaga professional, dan manajemen laundry yang baik, setiap cucian kamu, kami perlakukan layaknya cucian kami sendiri</p>
                         </a>
 
@@ -144,7 +144,7 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a href="service-single.html" class="block__16443 text-center d-block">
-                            <h3>FLEXIBLE</h3>
+                            <h3>Jadwal</h3>
                             <p>Autclean buka 7 hari seminggu (7.00 – 21.00) sehingga kapanpun kamu perlu laundry, kami siap membantu. Malas ke laundry? Hubungi kami, dan cucian kamu akan langsung diambil di tempat.</p>
                         </a>
 
@@ -152,7 +152,7 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a href="service-single.html" class="block__16443 text-center d-block">
-                            <h3>ENVIRONMENT FRIENDLY</h3>
+                            <h3>Ramah Lingkungan</h3>
                             <p>Kami berkomitmen pada keamanan dan keramahan lingkungan, mulai dari pemakaian bahan, hingga penyediaan tas laundry untuk mengurangi penggunaan plastik. Dengan laundry di Autclean, kamu bisa mendapatkan tas laundry ini secara GRATIS</p>
                         </a>
 
@@ -160,7 +160,7 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a href="service-single.html" class="block__16443 text-center d-block">
-                            <h3>SURPRISING!</h3>
+                            <h3>Menakjubkan</h3>
                             <p>Berkat dukungan dari banyak customer kami, Autclean Laundry dapat terus berkolaborasi, berkembang, serta dapat memberikan kejutan, promo, reward, dan nilai lebih bagi customer kami. Terus dapatkan info promo dan konten eksklusif Autclean Laundry!</p>
                         </a>
 
@@ -168,7 +168,7 @@
                     <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
                         <a href="service-single.html" class="block__16443 text-center d-block">
-                            <h3>COLLECT AND GET FREE!</h3>
+                            <h3>Kumpulkan Dan Dapatkan Diskon</h3>
                             <p class="d-sm-block">Jangan buang nota kamu setiap bertransaksi di Autclean Laundry, baik melalui web atau datang ke tempat kami. Kumpulkan nota kamu dan tukarkan dengan beragam reward menarik seperti Cuci Gratis, Tas Laundry, atau Promo-Promo Khusus lainnya!</p>
                         </a>
 
@@ -186,7 +186,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-8">
-            <h2 class="text-white">Our Foundation</h2>
+            <h2 class="text-white">Yayasan Kami</h2>
             <p class="mb-0 text-white lead">Autclean Laundry telah dipercaya oleh ribuan customer di Kota Bandung. Kami menyadari setiap kepercayaan yang diberikan pada kami menjadi landasan utama dalam pelayanan Autclean Laundry</p>
           </div>
         </div>

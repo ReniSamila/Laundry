@@ -55,7 +55,7 @@
                             <li><a href="about">About</a></li>
                             <li><a href="service" class="active">Jadwal</a></li>
                             <li><a href="blog">Blog</a></li>
-                            <li><a href="gallery">Gallery</a></li>
+                            <li><a href="account">My Account</a></li>
                             <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a>
                             </li>
                             <li class="d-lg-none"><a href="login">Log In</a></li>

@@ -31,8 +31,8 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
-Route::get('/gallery', function () {
-    return view('gallery');
+Route::get('/account', function () {
+    return view('account');
 });
 
 

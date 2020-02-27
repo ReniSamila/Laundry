@@ -52,9 +52,9 @@
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
               <li><a href="./" class="nav-link">Home</a></li>
               <li><a href="about">About</a></li>
-              <li><a href="service">Services</a></li>
+              <li><a href="service">Jadwal</a></li>
               <li><a href="blog" class="active">Blog</a></li>
-              <li><a href="gallery">Gallery</a></li>
+              <li><a href="account">My Account</a></li>
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
               <li class="d-lg-none"><a href="login">Log In</a></li>
             </ul>

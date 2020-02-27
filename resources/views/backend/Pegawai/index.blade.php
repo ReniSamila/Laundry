@@ -229,9 +229,11 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>Nama Pegawai</th>
-                                <th>Alamat Pegawai</th>
-                                <th>Telpon Pegawai</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Email </th>
+                                <th>Subject </th>
+                                <th>Message </th>
                                 <th style="text-align: center;">Aksi</th>
                             </tr>
                         </thead>
@@ -240,9 +242,11 @@
                             @foreach ($pegawai as $data)
                             <tr>
                                 <td>{{ $no++ }}</td>
-                                <td>{{ $data->nama_pegawai }}</td>
-                                <td>{{ $data->alamat_pegawai }}</td>
-                                <td>{{ $data->telpon_pegawai }}</td>
+                                <td>{{ $data->nama}}</td>
+                                <td>{{ $data->last}}</td>
+                                <td>{{ $data->email}}</td>
+                                <td>{{ $data->subject}}</td>
+                                <td>{{ $data->message}}</td>
                                 <td style="text-align: center;">
                                     <form action="{{route('pegawai.destroy', $data->id)}}" method="post">
                                         {{csrf_field()}}
